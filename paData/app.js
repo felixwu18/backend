@@ -19,18 +19,28 @@ app.all("*", function (req, res, next) {
 
 
 //  import路由
-var toDoRouteP = require("./routes/latestP");
-var configsRoute = require("./routes/base");
+var toDoRouteP = require("./routes/latestP"); // 最新个股价
+var configsRoute = require("./routes/base"); // 个股下拉配置数据
+var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
+var rzrqConfigsRoute = require("./routes/rzrq"); // 融资融券
+var HSAStockRoute = require("./routes/HSAStock"); // 沪深A
 
 // ------------------ 接口  ----------------------//
 
-/* 最新Price接口 */
+/* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)
 
-/* 获取最新Price参数配置数据接口 */
+/* 2 获取个股最新Price参数配置数据接口 */
 app.get('/latestPQuery', configsRoute)
 
+/* 3 获取版块最新Price参数配置数据接口 */
+app.get('/bkLatestPQuery', bankuaiConfigsRoute)
 
+/* 4 获取两融余额情况接口 */
+app.get('/rzrqQuery', rzrqConfigsRoute)
+
+/* 5 获取沪深两市A股 4250只 */
+app.get('/HSAStock', HSAStockRoute)
 
 
 
