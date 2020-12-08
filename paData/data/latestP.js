@@ -27,6 +27,7 @@ module.exports.configsP = [
     {key: '1.600036', value: '招商银行', pym: 'zsyh', marketT: 'sh'},
     {key: '1.600258', value: '首旅酒店', pym: 'sljd', marketT: 'sh'},
     {key: '0.002371', value: '北方华创', pym: 'bfhc', marketT: 'sz'},
+    {key: '1.603986', value: '兆易创新', pym: 'zycx', marketT: 'sh'},
     {key: '1.603198', value: '迎驾贡酒', pym: 'yjgj', marketT: 'sh'},
     {key: '0.002601', value: '龙蟒佰利', pym: 'lmbl', marketT: 'sz'},
     {key: '1.600031', value: '三一重工', pym: 'syzg', marketT: 'sh'},
@@ -158,7 +159,11 @@ module.exports.configsP = [
     {key: '1.600597', value: '光明乳业', pym: 'gmry', marketT: 'sh'},
     {key: '0.300034', value: '钢研高纳', pym: 'gygn', marketT: 'sz'},
     {key: '1.600460', value: '士兰微', pym: 'slw', marketT: 'sh'},
-    {key: '1.603976', value: '正川股份', pym: 'slw', marketT: 'sh'},
-    {key: '1.603439', value: '贵州三力', pym: 'slw', marketT: 'sh'},
-    {key: '0.002288', value: '超华科技', pym: 'slw', marketT: 'sz'},
+    {key: '1.603976', value: '正川股份', pym: 'zcgf', marketT: 'sh'},
+    {key: '1.603439', value: '贵州三力', pym: 'gzsl', marketT: 'sh'},
+    {key: '0.002288', value: '超华科技', pym: 'chkj', marketT: 'sz'},
+    {key: '1.600360', value: '华微电子', pym: 'hwdz', marketT: 'sh'}, // 半导体
+    {key: '1.688126', value: '沪硅产业-U', pym: 'hgcy', marketT: 'sh'}, // 材料
+    {key: '1.688012', value: '中微公司', pym: 'zwgs', marketT: 'sh'}, // 材料
+    {key: '1.603131', value: '上海沪工', pym: 'shhg', marketT: 'sh'}, // sssf
 ]

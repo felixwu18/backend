@@ -24,7 +24,10 @@ var configsRoute = require("./routes/base"); // 个股下拉配置数据
 var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
 var rzrqConfigsRoute = require("./routes/rzrq"); // 融资融券
 var HSAStockRoute = require("./routes/HSAStock"); // 沪深A
-
+var XTSelectStockRoute = require("./routes/XTSelectStock"); // 形态选股
+// var writeD = require("./utils/readWrite"); // 读写
+// writeD()
+var pagePaChongRoute = require("./routes/pachong/pagePC"); // 形态选股
 // ------------------ 接口  ----------------------//
 
 /* 1 最新Price接口 */
@@ -42,14 +45,21 @@ app.get('/rzrqQuery', rzrqConfigsRoute)
 /* 5 获取沪深两市A股 4250只 */
 app.get('/HSAStock', HSAStockRoute)
 
+/* 6 形态选股 */
+app.get('/XTSelectStock', XTSelectStockRoute)
+
+
+
+/* 测试爬虫 */
+app.get('/pagePaChong', pagePaChongRoute)
 
 
 
 // ----------------   监听端口   ------------------//
 //监听
-var server = app.listen(4000, function () {
-  // var port = server.address().port
-  console.log('引用实例,访问地址为 http://127.0.0.1:4000');
+var server = app.listen(4001, function () {
+  var port = server.address().port
+  console.log(`引用实例,访问地址为 http://127.0.0.1:${port}`);
 });
 
 
