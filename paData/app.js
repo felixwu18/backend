@@ -29,6 +29,7 @@ var HSAStockRoute = require("./routes/HSAStock"); // 沪深A
 var XTSelectStockRoute = require("./routes/XTSelectStock"); // 形态选股
 var stockCashFlowRoute = require("./routes/stockCashFlow"); // 个股资金流向
 var bankuaiPartsRoute = require("./routes/bankuaiParts"); // 版块成分股
+var fenshiPRoute = require("./routes/FenShiSelectStock"); // 分时策略
 
 
 // ------------------ 接口  ----------------------//
@@ -59,6 +60,9 @@ app.get('/stockCashFlow', stockCashFlowRoute)
 
 /*  8 版块成分股 */
 app.get('/bankuaiParts', bankuaiPartsRoute)
+
+/*  9 分时策略 */
+app.get('/fenshiSelectStock', fenshiPRoute)
 
 
 
