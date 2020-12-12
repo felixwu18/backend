@@ -18,6 +18,6 @@ module.exports.configsP = [
     // { key: '0.300241', value: '瑞丰光电', marketT: 'sz' }, // 科创
     // { key: '0.300808', value: '久量��份', marketT: 'sz' },
     { key: '0.002865', value: '钧达股份', marketT: 'sz' }, // ok
-    { key: '0.300537', value: '广信材料', marketT: 'sz' }, //看好
+    // { key: '0.300537', value: '广信材料', marketT: 'sz' }, //看好 创业
     // { key: '0.003018', value: '金富科技', marketT: 'sz' } // 新股
 ]

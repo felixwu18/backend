@@ -166,4 +166,16 @@ module.exports.configsP = [
     {key: '1.688126', value: '沪硅产业-U', pym: 'hgcy', marketT: 'sh'}, // 材料
     {key: '1.688012', value: '中微公司', pym: 'zwgs', marketT: 'sh'}, // 材料
     {key: '1.603131', value: '上海沪工', pym: 'shhg', marketT: 'sh'}, // sssf
+    {key: '1.603985', value: '恒润股份', pym: 'hrgf', marketT: 'sh'}, // sssf12-6
+    {key: "1.605007", value: "五洲特纸", pym: "wztz", marketT: 'sh'},
+    {key: "1.600197", value: "伊力特", pym: "ylt", marketT: "sh"},
+    {key: "1.601166", value: "兴业银行", pym: "xyyh", marketT: "sh"},
+    {key: "0.003022", value: "联泓新科", pym: "lhxk", marketT: "sz"},
+    {key: "0.002759", value: "天际股份", pym: "tjgf", marketT: "sz"},
+    {key: "0.000502", value: "绿景控股", pym: "ljkg", marketT: "sz"},
+    {key: "1.600509", value: "天富能源", pym: "tfny", marketT: "sh"},
+    {key: "1.601011", value: "宝泰隆", pym: "btl", marketT: "sh"},
+    {key: "0.000713", value: "丰乐种业", pym: "flzy", marketT: "sz"},
+    {key: "1.600313", value: "农发种业", pym: "nfzy", marketT: "sh"},
+    {key: "0.002041", value: "登海种业", pym: "dhzy", marketT: "sz"},
 ]

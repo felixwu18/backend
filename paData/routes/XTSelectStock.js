@@ -5,24 +5,35 @@ const configsAllP = require('../data/HSAFormat') // 沪深A 4250
 
 const sssfSelect = require('../utils/xtmethods/sssf') // 上升三法
 const jywdSelect = require('../utils/xtmethods/jywd') // 九阳洼地
+const jztdSelect = require('../utils/xtmethods/jztd') // 金针探底
+const stockCashFlowWatch = require('./stockCashFlow') // 个股资金流向
+
 
 module.exports = function (req, res) {
     /* _ 更新最新数据 沪深A 4250 只  po升降序指标 fid 排序参考指标*/
     const finalSelects = []
-    configsAllP.slice(0, 4250).forEach((item, index) => {
+    configsAllP.slice(0, 1).forEach((item, index) => {
         console.log(item.key)
-        // const secid = '1.603099'
-        const secid = item.key
+        // const secid = '1.600570' // 恒生电子
+        const secid = '1.688123' // 
+        // const secid = item.key
         axiosFetch({ secid })
-            .then(res => {
+            .then(async res => {
                 /* index 最高3 最低4 */
                 /* 上升三法 */
                 // if (typeof res.data.klines !== 'object' || res.data.klines.length < 4) { return }
                 // const consditon = sssfSelect(res.data.klines.reverse())
                 /* 九阳洼地 */
-                if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
-                const consditon = jywdSelect(res.data.klines.reverse())
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
+                // const consditon = jywdSelect(res.data.klines.reverse())
 
+                /* 个股资金流向 */
+                // const mastersBuyCondition = await stockCashFlowWatch({secid})
+                /* 金针探底 */
+                if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
+                const consditon = jztdSelect(res.data.klines.reverse())
+
+                // if (consditon&&mastersBuyCondition) {
                 if (consditon) {
                     finalSelects.push(item)
                 }

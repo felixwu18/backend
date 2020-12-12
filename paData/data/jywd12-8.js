@@ -52,7 +52,7 @@ module.exports.configsP = [
     // { key: '1.600885', value: '宏发股份', marketT: 'sh' },
     // { key: '1.600220', value: '江苏阳光', marketT: 'sh' },
     { key: '1.603221', value: '爱丽家居', marketT: 'sh' }, // ***
-    { key: '0.300363', value: '博腾股份', marketT: 'sz' }, // ***
+    // { key: '0.300363', value: '博腾股份', marketT: 'sz' }, // *** 创业
     // { key: '0.000927', value: '*ST夏利', marketT: 'sz' },
     { key: '1.603991', value: '至正股份', marketT: 'sh' }, // ***
     // { key: '1.603617', value: '君禾股份', marketT: 'sh' },
@@ -75,7 +75,7 @@ module.exports.configsP = [
     { key: '1.603330', value: '上海天洋', marketT: 'sh' }, // ***
     // { key: '0.300093', value: '金刚玻璃', marketT: 'sz' },
     // { key: '1.603668', value: '天马科技', marketT: 'sh' },
-    { key: '0.300118', value: '东方日升', marketT: 'sz' }, // ***
+    // { key: '0.300118', value: '东方日升', marketT: 'sz' }, // *** 创业
     // { key: '1.603099', value: '长白山', marketT: 'sh' },
     { key: '0.300832', value: '新产业', marketT: 'sz' } // ***
 ]

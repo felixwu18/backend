@@ -2,7 +2,6 @@
 var express = require('express');
 var app = express();
 
-
 //设置跨域访问（设置在所有的请求前面即可）
 app.all("*", function (req, res, next) {
   //设置允许跨域的域名，*代表允许任意域名跨域
@@ -18,17 +17,24 @@ app.all("*", function (req, res, next) {
 });
 
 
+// var writeD = require("./utils/readWrite"); // 读写
+// writeD()
 //  import路由
+var pagePaChongRoute = require("./routes/pachong/pagePC"); // 爬虫测试
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
 var configsRoute = require("./routes/base"); // 个股下拉配置数据
 var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
 var rzrqConfigsRoute = require("./routes/rzrq"); // 融资融券
 var HSAStockRoute = require("./routes/HSAStock"); // 沪深A
 var XTSelectStockRoute = require("./routes/XTSelectStock"); // 形态选股
-// var writeD = require("./utils/readWrite"); // 读写
-// writeD()
-var pagePaChongRoute = require("./routes/pachong/pagePC"); // 形态选股
+var stockCashFlowRoute = require("./routes/stockCashFlow"); // 个股资金流向
+var bankuaiPartsRoute = require("./routes/bankuaiParts"); // 版块成分股
+
+
 // ------------------ 接口  ----------------------//
+
+/* 测试爬虫 */
+app.get('/pagePaChong', pagePaChongRoute)
 
 /* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)
@@ -48,16 +54,18 @@ app.get('/HSAStock', HSAStockRoute)
 /* 6 形态选股 */
 app.get('/XTSelectStock', XTSelectStockRoute)
 
+/*  7 个股资金流向 */
+app.get('/stockCashFlow', stockCashFlowRoute)
 
+/*  8 版块成分股 */
+app.get('/bankuaiParts', bankuaiPartsRoute)
 
-/* 测试爬虫 */
-app.get('/pagePaChong', pagePaChongRoute)
 
 
 
 // ----------------   监听端口   ------------------//
 //监听
-var server = app.listen(4001, function () {
+var server = app.listen(4000, function () {
   var port = server.address().port
   console.log(`引用实例,访问地址为 http://127.0.0.1:${port}`);
 });
