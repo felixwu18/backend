@@ -2,10 +2,14 @@
 /* 个股最新价格 服务端请求数据 */
 var axiosFetch = require("../utils/axiosRequest");
 const configsAllP = require('../data/HSAFormat') // 沪深A 4250
+var fs = require("fs"); //文件模块
 
 const sssfSelect = require('../utils/xtmethods/sssf') // 上升三法
 const jywdSelect = require('../utils/xtmethods/jywd') // 九阳洼地
 const jztdSelect = require('../utils/xtmethods/jztd') // 金针探底
+const blqdSelect = require('../utils/xtmethods/blqd') // 倍量启动
+const xyhhSelect = require('../utils/xtmethods/xyhh') // 阴阳互换
+
 const stockCashFlowWatch = require('./stockCashFlow') // 个股资金流向
 
 
@@ -13,9 +17,9 @@ module.exports = function (req, res) {
     /* _ 更新最新数据 沪深A 4250 只  po升降序指标 fid 排序参考指标*/
     const finalSelects = []
     configsAllP.slice(0, 1).forEach((item, index) => {
-        console.log(item.key)
+        // console.log(item.key)
         // const secid = '1.600570' // 恒生电子
-        const secid = '1.688123' // 
+        const secid = '1.600600' // 
         // const secid = item.key
         axiosFetch({ secid })
             .then(async res => {
@@ -29,9 +33,19 @@ module.exports = function (req, res) {
 
                 /* 个股资金流向 */
                 // const mastersBuyCondition = await stockCashFlowWatch({secid})
-                /* 金针探底 */
-                if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
-                const consditon = jztdSelect(res.data.klines.reverse())
+
+                // /* 金针探底 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
+                // const consditon = jztdSelect(res.data.klines.reverse())
+
+                /* 倍量启动 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                // const consditon = blqdSelect(res.data.klines.reverse())
+                
+                /* 阴阳互换 */
+                if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                const consditon = xyhhSelect(res.data.klines.reverse().slice(11, 40))
+
 
                 // if (consditon&&mastersBuyCondition) {
                 if (consditon) {
@@ -43,9 +57,14 @@ module.exports = function (req, res) {
                 console.error(err)
             })
     })
-    /* 定时取值 */
+
+    /* 定时取数据 */
+    let writePath = 'H:\\stock\\backend\\paData\\data\\xyhhSelect-12-13.js'; //生成目录
     setInterval(() => {
         console.log('finalSelects', finalSelects)
+        fs.writeFile(writePath, JSON.stringify(finalSelects), function (err, m) {
+            console.log(err, m)
+        }); //将文件写入磁盘
     }, 2000);
 
 

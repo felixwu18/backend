@@ -51,7 +51,7 @@ function fenshiQuery(params) {
                 resolve(res.data)
             })
             .catch(err => {
-                // console.error(err)
+                console.error(err)
             })
     }))
 }

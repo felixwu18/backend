@@ -15,7 +15,7 @@ module.exports = function axiosFetch(params = {}) {
                 resolve(res.data)
             })
             .catch(err => {
-                // console.error(err)
+                console.error(err)
             })
     }))
 }
