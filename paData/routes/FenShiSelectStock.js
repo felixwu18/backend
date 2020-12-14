@@ -1,6 +1,7 @@
 var axios = require("axios");
 const configsAllP = require('../data/HSAFormat') // 沪深A 4250
 const stockCashFlowWatch = require('./stockCashFlow') // 个股资金流向
+const fenshiQuery = require('../utils/fenshiQuery') // 分时价查询
 const wbsxSelect = require('../utils/fenshimethods/wbsx') // 分时稳步上行
 
 /* 分时选股 */
@@ -35,23 +36,23 @@ module.exports = function fenshiP(req, res) {
 
 }
 
-/* 查询单个股分时价 */
-function fenshiQuery(params) {
-    return new Promise((resolve => {
-        const updateTime = Date.now() // 更新
-        const { secid = '0.002594', updateTime: _ = updateTime } = params;
-        const service = 'http://push2.eastmoney.com/api/qt/stock/trends2/get'
-        const urlParams = `fields1=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13&fields2=f51,f52,f53,f54,f55,f56,f57,f58&ut=fa5fd1943c7b386f172d6893dbfba10b&ndays=1&iscr=0&secid=${secid}&_=${_}`
-        const url = `${service}?${urlParams}`
-        axios.get(url)
-            .then(res => {
-                // // const jsonD = res.data.split('(')[1].split(')')[0]
-                // const data = JSON.parse(res.data)
-                // console.log(res, '===>res')
-                resolve(res.data)
-            })
-            .catch(err => {
-                console.error(err)
-            })
-    }))
-}
+// /* 查询单个股分时价 */
+// function fenshiQuery(params) {
+//     return new Promise((resolve => {
+//         const updateTime = Date.now() // 更新
+//         const { secid = '0.002594', updateTime: _ = updateTime } = params;
+//         const service = 'http://push2.eastmoney.com/api/qt/stock/trends2/get'
+//         const urlParams = `fields1=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13&fields2=f51,f52,f53,f54,f55,f56,f57,f58&ut=fa5fd1943c7b386f172d6893dbfba10b&ndays=1&iscr=0&secid=${secid}&_=${_}`
+//         const url = `${service}?${urlParams}`
+//         axios.get(url)
+//             .then(res => {
+//                 // // const jsonD = res.data.split('(')[1].split(')')[0]
+//                 // const data = JSON.parse(res.data)
+//                 // console.log(res, '===>res')
+//                 resolve(res.data)
+//             })
+//             .catch(err => {
+//                 console.error(err)
+//             })
+//     }))
+// }
