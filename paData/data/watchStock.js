@@ -21,4 +21,10 @@ module.exports.configsP = [
     { "key": "0.000568", "value": "泸州老窖", "marketT": "sz" },
     { "key": "1.600809", "value": "山西汾酒", "marketT": "sh" },
     { "key": "0.002453", "value": "华软科技", "marketT": "sz" },
+    { "key": "1.603501", "value": "韦尔股份", "marketT": "sh" },
+    { "key": "0.000895", "value": "双汇发展", "marketT": "sz" },
+    { "key": "0.002271", "value": "东方雨虹", "marketT": "sz" },
+    { "key": "0.002707", "value": "众信旅游", "marketT": "sz" }, // 旅游
+    { "key": "0.000796", "value": "凯撒旅业", "marketT": "sz" }, // 旅游
+    { "key": "1.601888", "value": "中国中免", "marketT": "sh" }, // 旅游
 ]

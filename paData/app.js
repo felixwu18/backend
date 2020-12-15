@@ -2,6 +2,10 @@
 var express = require('express');
 var app = express();
 
+// 中间件
+var bodyParser = require('body-parser');
+app.use(bodyParser.json()); // 将中间件注入express, post 接受参数必须加入
+
 //设置跨域访问（设置在所有的请求前面即可）
 app.all("*", function (req, res, next) {
   //设置允许跨域的域名，*代表允许任意域名跨域
@@ -21,6 +25,8 @@ app.all("*", function (req, res, next) {
 // writeD()
 //  import路由
 var pagePaChongRoute = require("./routes/pachong/pagePC"); // 爬虫测试
+var setCacheFSPRoute = require("./routes/setCacheFSP"); // 写入缓存分时回调
+var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回调
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
 var configsRoute = require("./routes/base"); // 个股下拉配置数据
 var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
@@ -37,6 +43,9 @@ var fenshiLatestPRoute = require("./routes/fenshiLatestP"); // 分时查询
 
 /* 测试爬虫 */
 app.get('/pagePaChong', pagePaChongRoute)
+
+app.post('/setCacheFSP', setCacheFSPRoute) // 接受前端分时数据写缓存
+app.get('/getCacheFSP', getCacheFSPRoute) // 获取缓存分时数据
 
 /* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)

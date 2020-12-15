@@ -179,4 +179,5 @@ module.exports.configsP = [
     { key: "1.600313", value: "农发种业", pym: "nfzy", marketT: "sh" },
     { key: "0.002041", value: "登海种业", pym: "dhzy", marketT: "sz" },
     { "key": "1.603379", "value": "三美股份", "marketT": "sh" },
+    { "key": "0.002475", "value": "立讯精密", "marketT": "sz" },
 ]

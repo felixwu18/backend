@@ -1,4 +1,4 @@
-[
+module.exports =[
     {
         "key": "1.601686",
         "value": "N友发",
