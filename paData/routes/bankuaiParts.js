@@ -26,7 +26,7 @@ module.exports = function (req, res) {
     axios.get(url)
         .then(data => {
             const resData = data.data.data
-            console.log(data.data)
+            // console.log(data.data)
             // const temp = configsAllP.filter(configitem => {
             //     return resData.diff.find(stock => configitem.key.search(stock.f12) !== -1)
             // }) || []

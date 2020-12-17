@@ -14,8 +14,8 @@ module.exports = function (req, res) {
     const urlParams = `secid=${secid}&ut=fa5fd1943c7b386f172d6893dbfba10b&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&end=20500101&lmt=120&_=${_}`
     const url = `${service}?${urlParams}`
     download(url, data => {
-      console.log(data, 'ceshi');
       res.send(data);
+      console.log('==> 最新个股信息查询成功');
       // res.sendStatus(data)
     })
   }

@@ -7,7 +7,7 @@ module.exports = function (req, res) {
     const { secid = '0.002594', ndays = 1 } = req.query;
     fenshiQuery({ secid, ndays })
             .then(resData => {
-                console.log(resData, 'resData');
+                console.log('==> 分时数据查询成功');
                 res.send(resData)
             })
             .catch(err => {

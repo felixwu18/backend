@@ -12,8 +12,8 @@ module.exports = function (req, res) {
         const fileName = currentItem.value
         let writePath = `H:\\stock\\backend\\paData\\data\\fenshi\\${fileName}.json`; //生成目录
         fs.writeFile(writePath, JSON.stringify(file), (err, m) => {
-            console.log(err, m, 'err--m')
             res.send('写入成功！')
+            console.log(err, m, `err--m-${fileName}缓存写入成功！`)
         }); //将文件写入磁盘
     }
 }

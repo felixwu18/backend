@@ -4,7 +4,8 @@ var app = express();
 
 // 中间件
 var bodyParser = require('body-parser');
-app.use(bodyParser.json()); // 将中间件注入express, post 接受参数必须加入
+app.use(bodyParser.json({limit: '25mb'})); // 将中间件注入express, post 接受参数必须加入
+// app.use(express.urlencoded({limit: '25mb'}));
 
 //设置跨域访问（设置在所有的请求前面即可）
 app.all("*", function (req, res, next) {

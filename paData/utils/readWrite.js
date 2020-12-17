@@ -27,7 +27,7 @@ module.exports = function writeD() {
                     marketT: `${item.f12[0] === '6' ? 'sh' : 'sz'}`
                 }
             })
-            console.log(formatD)
+            console.log(formatD, '<==写入数据成功')
             fs.writeFile(writePath, JSON.stringify(formatD), function (err, m) {
                console.log(err, m)
             }); //将文件写入磁盘

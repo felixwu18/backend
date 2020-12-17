@@ -180,4 +180,12 @@ module.exports.configsP = [
     { key: "0.002041", value: "登海种业", pym: "dhzy", marketT: "sz" },
     { "key": "1.603379", "value": "三美股份", "marketT": "sh" },
     { "key": "0.002475", "value": "立讯精密", "marketT": "sz" },
+    { "key": "0.000895", "value": "双汇发展", "marketT": "sz" },
+    { "key": "1.603787", "value": "新日股份", "marketT": "sh" },
+    { "key": "0.000639", "value": "西王食品", "marketT": "sz" },
+    { key: "1.605358", value: "立昂微", marketT: "sh" }, // 半导体
+    { key: "1.600460", value: "士兰微", marketT: "sh" }, // 半导体
+    { key: "1.605111", value: "新洁能", marketT: "sh" }, // 半导体
+    { key: "1.600586", value: "金晶科技", marketT: "sh" }, // 光伏
+    { "key": "1.600189", "value": "泉阳泉", "marketT": "sh" },
 ]

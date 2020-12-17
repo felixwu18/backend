@@ -7,7 +7,7 @@ module.exports = function (req, res) {
     const currentItem = configsAllP.find(item => item.key === secid) || {}
     const fileName = currentItem.value
     const file = `H:\\stock\\backend\\paData\\data\\fenshi\\${fileName}.json`;
-    console.log(fileName)
+    console.log('==>',fileName)
     if (currentItem) {
         //从内存中读取文件
         fs.readFile(file, 'utf-8', (err, data) => {
@@ -15,8 +15,8 @@ module.exports = function (req, res) {
                 res.send('文件读取失败');
                 console.log(err)
             } else {
-                console.log(data, 'duqu---data')
                 res.send(data)
+                console.log('duqu---读取缓存分时成功')
             }
         });
     }
