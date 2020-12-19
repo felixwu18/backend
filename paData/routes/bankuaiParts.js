@@ -2,13 +2,13 @@
 /* 版块成分股接口 */
 var axios = require("axios");
 const configsAllP = require('../data/HSAFormat') // 沪深A 4250
-
+const codeToSecid = require('../utils/codeToSecid') // 工具函数
 var fs = require("fs"); //文件模块
 
 
 module.exports = function (req, res) {
-    const writePath = 'H:\\stock\\backend\\paData\\data\\bankuaiParts\\食品饮料.js'; //生成目录文件
-    const { size = 203, current = 1, bkid = 'BK0438', updateTime: _ = Date.now() } = req.query;
+    const writePath = 'H:\\stock\\backend\\paData\\data\\bankuaiParts\\券商信托.js'; //生成目录文件
+    const { size = 203, current = 1, bkid = 'BK0473', updateTime: _ = Date.now() } = req.query;
     /* 板块个股 */
     const service = 'http://46.push2.eastmoney.com/api/qt/clist/get'
     const urlParams = `pz=${size}&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&pn=${current}&po=1&fid=f3&fs=b:${bkid}+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f22,f11,f62,f128,f136,f115,f152,f45&_=${_}`
@@ -25,8 +25,7 @@ module.exports = function (req, res) {
     console.log(url)
     axios.get(url)
         .then(data => {
-            const resData = data.data.data
-            // console.log(data.data)
+            const resData = codeToSecid(data.data.data.diff, 1)
             // const temp = configsAllP.filter(configitem => {
             //     return resData.diff.find(stock => configitem.key.search(stock.f12) !== -1)
             // }) || []
@@ -34,8 +33,8 @@ module.exports = function (req, res) {
             // console.log(temp.length)
             // console.log(resData.diff.length)
             /* 将文件写入磁盘 */
-            const temp = resData.diff.map(stock =>({key: stock.f12, value: stock.f14}))
-            fs.writeFile(writePath, JSON.stringify(temp), function (err, m) {
+            // const temp = resData.diff.map(stock =>({key: stock.f12, value: stock.f14}))
+            fs.writeFile(writePath, JSON.stringify(resData), function (err, m) {
                 console.log(err, m)
             });
         })

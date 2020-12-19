@@ -27,14 +27,14 @@ module.exports = function jztdSelect(data) {
     const condition3 = zfArr.slice(1, 4).find(zdf => zdf > 0) === undefined // 连跌3天
     const d3lj = accumulator(zfArr.slice(1, 4)) // 3天跌幅累计, 或者四天跌幅
     const condition4 = (d3lj < -5) && (d3lj > -7.5) // 累计跌幅6到7个点
-    console.log('latest9DaysP', latest9DaysP)
-    console.log('dfyx', dfyx)
-    console.log('kfyx', kfyx)
-    console.log('skzd', skzd)
-    console.log('condition1', condition1)
-    console.log('condition2', condition2)
-    console.log('condition3', condition3)
-    console.log('d3lj', d3lj)
-    console.log('condition4', condition4)
+    // console.log('latest9DaysP', latest9DaysP)
+    // console.log('dfyx', dfyx)
+    // console.log('kfyx', kfyx)
+    // console.log('skzd', skzd)
+    // console.log('condition1', condition1)
+    // console.log('condition2', condition2)
+    // console.log('condition3', condition3)
+    // console.log('d3lj', d3lj)
+    // console.log('condition4', condition4)
     return condition1&&condition2&&condition3&&condition4
 }

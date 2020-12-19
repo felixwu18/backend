@@ -188,4 +188,10 @@ module.exports.configsP = [
     { key: "1.605111", value: "新洁能", marketT: "sh" }, // 半导体
     { key: "1.600586", value: "金晶科技", marketT: "sh" }, // 光伏
     { "key": "1.600189", "value": "泉阳泉", "marketT": "sh" },
+    { key: '0.002567', value: '唐人神', marketT: 'sz' },
+    { key: "0.002812", value: "恩捷股份", marketT: "sz" }, // 电池
+    { "key": "1.601633", "value": "长城汽车", "marketT": "sh" },
+    { "key": "1.600309", "value": "万华化学", "marketT": "sh" },
+    { "key": "0.002240", "value": "盛新锂能", "marketT": "sz" },
+    { key: '1.603000', value: '人民网', marketT: 'sh' }, // 网络游戏
 ]

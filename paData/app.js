@@ -28,6 +28,7 @@ app.all("*", function (req, res, next) {
 var pagePaChongRoute = require("./routes/pachong/pagePC"); // 爬虫测试
 var setCacheFSPRoute = require("./routes/setCacheFSP"); // 写入缓存分时回调
 var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回调
+var setCache120DayRoute = require("./routes/setCache120Day"); // 缓存半年数据
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
 var configsRoute = require("./routes/base"); // 个股下拉配置数据
 var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
@@ -47,6 +48,8 @@ app.get('/pagePaChong', pagePaChongRoute)
 
 app.post('/setCacheFSP', setCacheFSPRoute) // 接受前端分时数据写缓存
 app.get('/getCacheFSP', getCacheFSPRoute) // 获取缓存分时数据
+
+app.post('/setCache120Day', setCache120DayRoute) // 缓存半年数据
 
 /* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)
