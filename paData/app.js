@@ -26,6 +26,7 @@ app.all("*", function (req, res, next) {
 // writeD()
 //  import路由
 var pagePaChongRoute = require("./routes/pachong/pagePC"); // 爬虫测试
+var setFileNamesRoute = require("./routes/setFileNames"); // 写入缓存分时回调
 var setCacheFSPRoute = require("./routes/setCacheFSP"); // 写入缓存分时回调
 var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回调
 var setCache120DayRoute = require("./routes/setCache120Day"); // 缓存半年数据
@@ -50,6 +51,8 @@ app.post('/setCacheFSP', setCacheFSPRoute) // 接受前端分时数据写缓存
 app.get('/getCacheFSP', getCacheFSPRoute) // 获取缓存分时数据
 
 app.post('/setCache120Day', setCache120DayRoute) // 缓存半年数据
+
+app.post('/setFileNames', setFileNamesRoute) // 缓存已缓存的名录
 
 /* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)

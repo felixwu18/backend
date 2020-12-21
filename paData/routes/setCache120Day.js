@@ -23,12 +23,11 @@ module.exports = function (req, resp) {
         const file = `module.exports = ${JSON.stringify(res)}`;
         const fileName = currentItem.value
         let writePath = `H:\\stock\\backend\\paData\\data\\latestP\\${fileName}.js`; //生成目录
-        // setTimeout(() => {
         fs.writeFile(writePath, file, (err, m) => {
             // resp.send('写入成功！')
+            // resp.send(`${fileName}--lataetP缓存写入成功`)
             console.log(err, m, `err--m-${fileName}lataetP缓存写入成功！`)
         }); //将文件写入磁盘
-        // }, 1000 * 20);
     })
     // })
 }

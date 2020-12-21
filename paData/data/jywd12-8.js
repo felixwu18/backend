@@ -32,7 +32,7 @@ module.exports.configsP = [
     // { key: '0.002852', value: '道道全', marketT: 'sz' },
     // { key: '1.600993', value: '马应龙', marketT: 'sh' },
     // { key: '0.002960', value: '青鸟消防', marketT: 'sz' },
-    { key: '1.600419', value: '天润乳业', marketT: 'sh' }, // ***
+    { key: '1.600419', value: '天润乳业', marketT: 'sh' }, // *** 后验ok
     // { key: '0.002248', value: '华东数控', marketT: 'sz' },
     // { key: '0.000712', value: '锦龙股份', marketT: 'sz' },
     // { key: '0.002781', value: '奇信股份', marketT: 'sz' },

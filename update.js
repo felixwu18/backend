@@ -1,13 +1,17 @@
 /* 更新后台数据脚本 */
 var axios = require("axios");
+const updateList = require('./paData/data/fenshi/names/index')
+
 const configsAllP = require('./paData/data/HSAFormat') // 沪深A 4250
-const updateList = ['隆基股份', '上机数控', '金晶科技', '智慧农业', '鸿远电子', '天赐材料', '四方科技', '淮北矿业', '涪陵榨菜', '福莱特', '比亚迪', '宝丰能源', '老白干酒', 'TCL科技', '伊力特', '兴业银行', '新日股份', '小康股份', '五洲特纸', '双汇发展', '天际股份', '士兰微', '泉阳泉', '西王食品', '名臣健康', '立昂微', '科沃斯', '华友钴业', '恒润股份']
+// const updateList = ['隆基股份', '上机数控', '金晶科技', '智慧农业', '鸿远电子', '天赐材料', '四方科技', '淮北矿业', '涪陵榨菜', '福莱特', '比亚迪', '宝丰能源', '老白干酒', 'TCL科技', '伊力特', '兴业银行', '新日股份', '小康股份', '五洲特纸', '双汇发展', '天际股份', '士兰微', '泉阳泉', '西王食品', '名臣健康', '立昂微', '科沃斯', '华友钴业', '恒润股份']
 updateList.forEach((name, index) => {
+    setTimeout(() => {
         const currentItem = configsAllP.find(item => item.value === name) || {}
         console.log(currentItem.key, `===>${index}`)
         if (currentItem.key) {
             update(currentItem.key)
         }
+    }, 1200 * index)
 })
 
 
@@ -19,6 +23,7 @@ function pushLatestFSP(params = {}) {
     axios.post(url, params)
         .then(res => {
             const data = res.data
+            console.log(data) // 写入成功时打印提示
         })
         .catch(err => {
             console.error(err, 'pushLatestFSP--err')
@@ -32,6 +37,7 @@ function getFSP(params = {}) {
         axios.get(`http://127.0.0.1:4000/fenshiLatestP?${queryStr}`)
             .then(res => {
                 const data = res.data.trends
+                // console.error(data, '===>三方最新分时数据')
                 resolve(data)
             })
             .catch(err => {
@@ -91,8 +97,8 @@ function unique(arr) {
 async function update(secid) {
     let resFSP = await getFSP({ secid, ndays: 5 }); // 时间降序
     let cacheFSP = await getCacheFSP({ secid, });  // 时间降序
-    if (cacheFSP == '文件读取失败') {
-        console.log(resFSP, '没有缓存数据, 同步缓存最新数据', secid)
+    if (cacheFSP === '文件读取失败' || cacheFSP === '') {
+        console.log('没有缓存数据, 同步缓存最新数据', secid)
         pushLatestFSP({
             secid: this.selectVal,
             data: resFSP

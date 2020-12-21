@@ -2,8 +2,10 @@
 /* 个股最新价格 服务端请求数据 */
 var axiosFetch = require("../utils/axiosRequest");
 var download = require("../utils/http");
-// const configsAllP = require('../data/HSAFormat') // 沪深A 4250
-const configsAllP = require('../data/bankuaiParts/食品饮料') // 板块类股
+const configsAllP = require('../data/HSAFormat') // 沪深A 4250
+// const configsAllP = require('../data/syhh12-19') // syhh12-19
+
+// const configsAllP = require('../data/bankuaiParts/食品饮料') // 板块类股
 var fs = require("fs"); //文件模块
 
 /* 工具函数 */
@@ -13,6 +15,7 @@ const sssfSelect = require('../utils/xtmethods/sssf') // 上升三法
 const jywdSelect = require('../utils/xtmethods/jywd') // 九阳洼地
 const jztdSelect = require('../utils/xtmethods/jztd') // 金针探底
 const blqdSelect = require('../utils/xtmethods/blqd') // 倍量启动
+const blp20aSelect = require('../utils/xtmethods/blp20a') // 倍量突破20均
 const xyhhSelect = require('../utils/xtmethods/xyhh') // 阴阳互换
 const sysgSelect = require('../utils/xtmethods/sysg') // 三阳上轨
 
@@ -22,7 +25,7 @@ module.exports = function (req, resp) {
     /* _ 更新最新数据 沪深A 4250 只  po升降序指标 fid 排序参考指标*/
     const finalSelects = []
     configsAllP.forEach((item, index) => {
-    // configsAllP.slice(0, 36).forEach((item, index) => {
+        // configsAllP.slice(0, 1).forEach((item, index) => {
         /*secid id   _ 更新最新数据*/
         // console.log(`${item.key}--${item.value}--${index}`)
         // const secid = '1.600570' // 恒生电子
@@ -32,53 +35,60 @@ module.exports = function (req, resp) {
         const service = 'http://55.push2his.eastmoney.com/api/qt/stock/kline/get'
         const urlParams = `secid=${secid}&ut=fa5fd1943c7b386f172d6893dbfba10b&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&end=20500101&lmt=120&_=${_}`
         const url = `${service}?${urlParams}`
-        download(url, res => {
-            // resp.send(data);
-            console.log(`${item.key}--${item.value}==> 最新个股信息查询成功`);
-            // console.log(typeof res)
-            res = JSON.parse(res)
-            if (!res.data) { return }
-            /* index 最高3 最低4 */
-            /* 上升三法 */
-            if (typeof res.data.klines !== 'object' || res.data.klines.length < 4) { return }
-            const consditon = sssfSelect(res.data.klines.reverse())
-            /* 九阳洼地 */
-            // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
-            // const consditon = jywdSelect(res.data.klines.reverse())
+        setTimeout(() => {
+            download(url, res => {
+                // resp.send(data);
+                console.log(`${item.key}--${item.value}==> 最新个股信息查询成功`);
+                // console.log(typeof res)
+                res = JSON.parse(res)
+                if (!res.data) { return }
+                /* index 最高3 最低4 */
+                /* 上升三法 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 4) { return }
+                // const consditon = sssfSelect(res.data.klines.reverse())
+                /* 九阳洼地 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
+                // const consditon = jywdSelect(res.data.klines.reverse())
 
-            /* 个股资金流向 */
-            // const mastersBuyCondition = await stockCashFlowWatch({secid})
+                /* 个股资金流向 */
+                // const mastersBuyCondition = await stockCashFlowWatch({secid})
 
-            // /* 金针探底 */
-            // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
-            // const consditon = jztdSelect(res.data.klines.reverse())
+                // /* 金针探底 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
+                // const consditon = jztdSelect(res.data.klines.reverse())
 
-            /* 倍量启动 */
-            // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-            // const consditon = blqdSelect(res.data.klines.reverse())
+                /* 倍量启动 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                // const consditon = blqdSelect(res.data.klines.reverse())
 
-            /* 阴阳互换 */
-            // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-            // const consditon = xyhhSelect(res.data.klines.reverse().slice(11, 40))
+                /* 倍量突破20均 */
+                if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                const consditon = blp20aSelect(res.data.klines.reverse().slice(1))
 
-            /* 三阳上轨 */
-            // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-            // const consditon = sysgSelect(res.data.klines.reverse().slice(0, 20))
+                /* 阴阳互换 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                // const consditon = xyhhSelect(res.data.klines.reverse().slice(1))
+
+                /* 三阳上轨 */
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                // const consditon = sysgSelect(res.data.klines.reverse().slice(0, 20))
 
 
-            // if (consditon&&mastersBuyCondition) {
-            if (consditon) {
-                finalSelects.push(item)
-            }
-            console.log(`${consditon}--finalSelects---${index}`)
-        })
+                // if (consditon&&mastersBuyCondition) {
+                const consditon2 = item.value.search('ST') === -1 && item.value.search('*ST') === -1
+                if (consditon && consditon2) {
+                    finalSelects.push(item)
+                }
+                console.log(`${consditon}--finalSelects---${index}`)
+            })
+        }, 150 * index)
     })
 
     /* 定时取数据 */
-    // let writePath = 'H:\\stock\\backend\\paData\\data\\jztdSelect-12-18.js'; //生成目录
+    let writePath = 'H:\\stock\\backend\\paData\\data\\yhhhSelect-12-19.js'; //生成文件
     setInterval(() => {
-        console.log(finalSelects, '=======>finalSelects')
-    }, 1000 * 2);
+        console.log(finalSelects, `====${finalSelects.length}===>finalSelects`)
+    }, 1000 * 3);
 
     //将文件写入磁盘
     // setTimeout(() => {
@@ -86,7 +96,7 @@ module.exports = function (req, resp) {
     //     fs.writeFile(writePath, JSON.stringify(finalSelects), function (err, m) {
     //         console.log('==>finalSelects写入数据')
     //     }); //将文件写入磁盘
-    // }, 1000 * 20);
+    // }, 1000 * 2);
 
 
 

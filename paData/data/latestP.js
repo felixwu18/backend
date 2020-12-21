@@ -5,7 +5,7 @@ module.exports.configsP = [
     { key: '1.601865', value: '福莱特', pym: 'flt', marketT: 'sh' },
     { key: '1.601899', value: '紫金矿业', pym: 'zjky', marketT: 'sh' },
     { key: '0.002202', value: '金风科技', pym: 'jfkj', marketT: 'sz' },
-    { key: '1.600989', value: '宝丰能源', pym: 'bfny', marketT: 'sh' },
+    { key: '1.600989', value: '宝丰能源', pym: 'bfny', marketT: 'sh' }, // 除了中国神华，中煤能源外，煤化工龙头
     { key: '1.601866', value: '中远海发', pym: 'zyhf', marketT: 'sh' },
     { key: '1.600006', value: '东风汽车', pym: 'dfqc', marketT: 'sh' },
     { key: '0.000088', value: '盐田港', pym: 'ytg', marketT: 'sz' },
@@ -29,7 +29,7 @@ module.exports.configsP = [
     { key: '0.002371', value: '北方华创', pym: 'bfhc', marketT: 'sz' },
     { key: '1.603986', value: '兆易创新', pym: 'zycx', marketT: 'sh' },
     { key: '1.603198', value: '迎驾贡酒', pym: 'yjgj', marketT: 'sh' },
-    { key: '0.002601', value: '龙蟒佰利', pym: 'lmbl', marketT: 'sz' },
+    { key: '0.002601', value: '龙蟒佰利', pym: 'lmbl', marketT: 'sz' }, // 钛白粉龙头 布局钛合金和锆制品
     { key: '1.600031', value: '三一重工', pym: 'syzg', marketT: 'sh' },
     { key: '0.002027', value: '分众传媒', pym: 'fzcm', marketT: 'sz' },
     { key: '1.603486', value: '科沃斯', pym: 'kws', marketT: 'sh' },
@@ -191,7 +191,19 @@ module.exports.configsP = [
     { key: '0.002567', value: '唐人神', marketT: 'sz' },
     { key: "0.002812", value: "恩捷股份", marketT: "sz" }, // 电池
     { "key": "1.601633", "value": "长城汽车", "marketT": "sh" },
-    { "key": "1.600309", "value": "万华化学", "marketT": "sh" },
+    { "key": "1.600309", "value": "万华化学", "marketT": "sh" }, //聚氨酯全球龙头， 被誉为第五大塑料
     { "key": "0.002240", "value": "盛新锂能", "marketT": "sz" },
     { key: '1.603000', value: '人民网', marketT: 'sh' }, // 网络游戏
+    { "key": "0.300034", "value": "钢研高纳", "marketT": "sz" },
+    { "key": "1.603728", "value": "鸣志电器", "marketT": "sh" },
+    { "key": "1.603606", "value": "东方电缆", "marketT": "sh" },
+    { "key": "1.603690", "value": "至纯科技", "marketT": "sh" }, // 集成电路 5G
+    { "key": "1.600382", "value": "广东明珠", "marketT": "sh" }, // 白酒 新能源车
+    { "key": "0.002524", "value": "光正眼科", "marketT": "sz" },
+    { "key": "0.000338", "value": "潍柴动力", "marketT": "sz" },
+    { "key": "1.688017", "value": "绿的谐波", "marketT": "sh" },
+    { "key": "1.603113", "value": "金能科技", "marketT": "sh" }, // 煤炭龙头
+    { "key": "0.002959", "value": "小熊电器", "marketT": "sz" },
+    { "key": "0.300824", "value": "北鼎股份", "marketT": "sz" }, // 与小熊电器同行业 12-21回踩中
+    { "key": "1.600859", "value": "王府井", "marketT": "sh" },
 ]

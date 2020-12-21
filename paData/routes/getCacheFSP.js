@@ -12,11 +12,12 @@ module.exports = function (req, res) {
         //从内存中读取文件
         fs.readFile(file, 'utf-8', (err, data) => {
             if (err) {
-                res.send('文件读取失败');
-                console.log(err)
+                res.send(`文件读取失败`);
+                // console.log(err)
+                console.log(`duqu--${fileName}--读取缓存分时失败`)
             } else {
                 res.send(data)
-                console.log('duqu---读取缓存分时成功')
+                console.log(`duqu--${fileName}--读取缓存分时成功`)
             }
         });
     }

@@ -13,7 +13,7 @@ module.exports = function blqdSelect(data) {
     const condition2 = zdf19Arr.findIndex(adf => adf > 5 || adf < -4) === -1 // 前19天最大涨幅，最大跌幅限制
     const condition3 = (volumeArr[0] / volumeArr[1]).toFixed(2) > 2.8 // 量柱倍量
     const condition4 = ((spjArr[0] - kpjArr[4]) / kpjArr[4] * 100).toFixed(2) < 20 // 五天累计涨幅18点内
-    const condition5 = zdfArr[0] > 6 // 放量当天涨幅要求
+    const condition5 = zdfArr[0] > 5 // 放量当天涨幅要求
     console.log(latest5DaysP, '=====>latest5DaysP')
     console.log(volumeArr, '=====>volumeArr')
     console.log((volumeArr[0] / volumeArr[1]).toFixed(2), '=====>(volumeArr[0] / volumeArr[1]).toFixed(2)')

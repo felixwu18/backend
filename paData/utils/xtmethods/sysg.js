@@ -12,7 +12,7 @@ module.exports = function sysgSelect(data) {
 
     const condition1 = d3lj > 13 // 3天累计13点以上
     const condition2 = day3zfArr[0] > 0 && day3zfArr[1] > 0 && day3zfArr[2] > 0 // 三天阳线
-    const condition3 = spjArr[0] > upper
+    const condition3 = spjArr[0] > upper // 突破boll上轨
 
     return condition1&&condition2&&condition3
 }
