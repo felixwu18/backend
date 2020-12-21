@@ -4,6 +4,7 @@ const updateList = require('./paData/data/fenshi/names/index')
 
 const configsAllP = require('./paData/data/HSAFormat') // 沪深A 4250
 // const updateList = ['隆基股份', '上机数控', '金晶科技', '智慧农业', '鸿远电子', '天赐材料', '四方科技', '淮北矿业', '涪陵榨菜', '福莱特', '比亚迪', '宝丰能源', '老白干酒', 'TCL科技', '伊力特', '兴业银行', '新日股份', '小康股份', '五洲特纸', '双汇发展', '天际股份', '士兰微', '泉阳泉', '西王食品', '名臣健康', '立昂微', '科沃斯', '华友钴业', '恒润股份']
+console.log(updateList, 'updateList-------')
 updateList.forEach((name, index) => {
     setTimeout(() => {
         const currentItem = configsAllP.find(item => item.value === name) || {}
