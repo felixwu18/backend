@@ -8,7 +8,7 @@ module.exports = function blp20aSelect(data) {
     const spjArr = data.map(item => item.split(',')[2]) // 收盘价
     const average20 = to20Average(data).average20
 
-    const condition1 = (volumeArr[0] / volumeArr[1]).toFixed(2) > 2 // 量柱倍量
+    const condition1 = (volumeArr[0] / volumeArr[1]).toFixed(2) > 1.8 // 量柱倍量
     const condition2 = zdfArr[0] > 4 // 放量当天涨幅要求
     const condition3 = spjArr[0] > average20 // 突破20均
 

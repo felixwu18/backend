@@ -7,8 +7,9 @@ var fs = require("fs"); //文件模块
 
 
 module.exports = function (req, res) {
-    const writePath = 'H:\\stock\\backend\\paData\\data\\bankuaiParts\\券商信托.js'; //生成目录文件
-    const { size = 203, current = 1, bkid = 'BK0473', updateTime: _ = Date.now() } = req.query;
+    const bankuaiFileName = '输配电气'
+    const writePath = `H:\\stock\\backend\\paData\\data\\bankuaiParts\\${bankuaiFileName}.js`; //生成目录文件
+    const { size = 300, current = 1, bkid = 'BK0457', updateTime: _ = Date.now() } = req.query;
     /* 板块个股 */
     const service = 'http://46.push2.eastmoney.com/api/qt/clist/get'
     const urlParams = `pz=${size}&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&pn=${current}&po=1&fid=f3&fs=b:${bkid}+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f22,f11,f62,f128,f136,f115,f152,f45&_=${_}`
@@ -22,20 +23,14 @@ module.exports = function (req, res) {
     // const urlParams = `pn=1&pz=285&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f3&fs=m:90+t:3+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f26,f22,f33,f11,f62,f128,f136,f115,f152,f124,f107,f104,f105,f140,f141,f207,f208,f209,f222&_=1607758746440`
     
     const url = `${service}?${urlParams}`
-    console.log(url)
     axios.get(url)
         .then(data => {
             const resData = codeToSecid(data.data.data.diff, 1)
-            // const temp = configsAllP.filter(configitem => {
-            //     return resData.diff.find(stock => configitem.key.search(stock.f12) !== -1)
-            // }) || []
             res.send(resData);
-            // console.log(temp.length)
-            // console.log(resData.diff.length)
             /* 将文件写入磁盘 */
-            // const temp = resData.diff.map(stock =>({key: stock.f12, value: stock.f14}))
-            fs.writeFile(writePath, JSON.stringify(resData), function (err, m) {
-                console.log(err, m)
+            const file = `module.exports = ${JSON.stringify(resData)}`;
+            fs.writeFile(writePath, file, function (err, m) {
+                console.log(err, m, `err--m-${bankuaiFileName}--版块成分股缓存写入成功！`)
             });
         })
         .catch(err => {

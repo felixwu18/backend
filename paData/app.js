@@ -30,6 +30,8 @@ var setFileNamesRoute = require("./routes/setFileNames"); // 写入缓存分时�
 var setCacheFSPRoute = require("./routes/setCacheFSP"); // 写入缓存分时回调
 var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回调
 var setCache120DayRoute = require("./routes/setCache120Day"); // 缓存半年数据
+var clsNewsRoute = require("./routes/clsNews"); // 缓存半年数据
+
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
 var configsRoute = require("./routes/base"); // 个股下拉配置数据
 var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
@@ -53,6 +55,10 @@ app.get('/getCacheFSP', getCacheFSPRoute) // 获取缓存分时数据
 app.post('/setCache120Day', setCache120DayRoute) // 缓存半年数据
 
 app.post('/setFileNames', setFileNamesRoute) // 缓存已缓存的名录
+
+app.get('/getclsNews', clsNewsRoute) // 获取财联社数据
+
+
 
 /* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)
@@ -92,37 +98,3 @@ var server = app.listen(4000, function () {
   console.log(`引用实例,访问地址为 http://127.0.0.1:${port}`);
 });
 
-
-// app.get('/',function(req,res){
-//   res.send('Hello World');
-// });
-// app.get('/zs',function(req,res,){
-//   res.send('你好,get,张三');
-// });
-// app.get('/zs',function(req,res,){
-//   res.send('你好,get,张三');
-// });
-
-
-/*
--- -- -- -- > 前端代码
-
-fetch("http://127.0.0.1:6600/", {
-    method: "post",
-    body: JSON.stringify({
-      opt: "add",
-      sex: "nan"
-    }),
-    headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json" //此处请求头为json
-    }
-  })
-  .then(function(d) {
-    return d.text();
-  })
-  .then(function(d) {
-    console.info(JSON.parse(d));
-  });
-
-*/

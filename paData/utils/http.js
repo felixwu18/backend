@@ -1,8 +1,11 @@
 var http = require("http");
+var https = require("https");
+let httpOrHttps = http // 默认http
 
 /* 调取其他接口数据 */
-module.exports = function download(url, callback) {
-    http.get(url, function (res) {
+module.exports = function download(url, callback, type) {
+  type && (httpOrHttps = https) // type非空 一般传1则https
+  httpOrHttps.get(url, function (res) {
       var data = "";
       res.on('data', function (chunk) {
         data += chunk;
@@ -10,8 +13,9 @@ module.exports = function download(url, callback) {
       res.on("end", function () {
         callback(data);
       });
-    }).on("error", function () {
+    })
+    .on("error", function () {
       callback(null);
     });
 }
-  
+

@@ -1,14 +1,14 @@
 module.exports = [
     {"key":"0.002160","value":"常铝股份","marketT":"sz"},
     {"key":"1.600338","value":"西藏珠峰","marketT":"sh"},
-    {"key":"0.002460","value":"赣锋锂业","marketT":"sz"},
+    {"key":"0.002460","value":"赣锋锂业","marketT":"sz"}, // ***
     {"key":"1.600549","value":"厦门钨业","marketT":"sh"},
     {"key":"0.002182","value":"云海金属","marketT":"sz"},
     {"key":"0.000923","value":"河钢资源","marketT":"sz"},
     {"key":"1.600595","value":"*ST中孚","marketT":"sh"},
     {"key":"0.002738","value":"中矿资源","marketT":"sz"},
     {"key":"0.000633","value":"合金投资","marketT":"sz"},
-    {"key":"1.603799","value":"华友钴业","marketT":"sh"},
+    {"key":"1.603799","value":"华友钴业","marketT":"sh"}, // ***
     {"key":"1.600711","value":"盛屯矿业","marketT":"sh"},
     {"key":"0.002996","value":"顺博合金","marketT":"sz"},
     {"key":"0.000933","value":"神火股份","marketT":"sz"},
