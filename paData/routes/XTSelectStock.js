@@ -16,7 +16,7 @@ const jywdSelect = require('../utils/xtmethods/jywd') // 九阳洼地
 const jztdSelect = require('../utils/xtmethods/jztd') // 金针探底
 const blqdSelect = require('../utils/xtmethods/blqd') // 倍量启动
 const blp20aSelect = require('../utils/xtmethods/blp20a') // 倍量突破20均
-const xyhhSelect = require('../utils/xtmethods/xyhh') // 阴阳互换
+const yyhhSelect = require('../utils/xtmethods/yyhh') // 阴阳互换
 const sysgSelect = require('../utils/xtmethods/sysg') // 三阳上轨
 
 const stockCashFlowWatch = require('./stockCashFlow') // 个股资金流向
@@ -44,8 +44,8 @@ module.exports = function (req, resp) {
                 if (!res.data) { return }
                 /* index 最高3 最低4 */
                 /* 上升三法 */
-                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 4) { return }
-                // const consditon = sssfSelect(res.data.klines.reverse())
+                if (typeof res.data.klines !== 'object' || res.data.klines.length < 4) { return }
+                const consditon1 = sssfSelect(res.data.klines.reverse())
                 /* 九阳洼地 */
                 // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
                 // const consditon = jywdSelect(res.data.klines.reverse())
@@ -63,11 +63,11 @@ module.exports = function (req, resp) {
 
                 /* 倍量突破20均 */
                 if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-                const consditon = blp20aSelect(res.data.klines.reverse().slice(1))
+                const consditon2 = blp20aSelect(res.data.klines.reverse().slice(1))
 
                 /* 阴阳互换 */
-                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-                // const consditon = xyhhSelect(res.data.klines.reverse().slice(1))
+                if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                const consditon3 = yyhhSelect(res.data.klines.reverse().slice(1))
 
                 /* 三阳上轨 */
                 // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
@@ -75,8 +75,10 @@ module.exports = function (req, resp) {
 
 
                 // if (consditon&&mastersBuyCondition) {
-                const consditon2 = item.value.search('ST') === -1 && item.value.search('*ST') === -1
-                if (consditon && consditon2) {
+                    console.log(item.value, 'item.value--')
+                const consditonNoST = item.value.search('ST') === -1 && item.value.indexOf('*ST') === -1
+                const consditon = consditon1 || consditon2 || consditon3
+                if (consditon && consditonNoST) {
                     finalSelects.push(item)
                 }
                 console.log(`${consditon}--finalSelects---${index}`)

@@ -3060,7 +3060,7 @@ module.exports = [
     { "key": "0.002020", "value": "京新药业", "marketT": "sz" },
     { "key": "0.300133", "value": "华策影视", "marketT": "sz" },
     { "key": "0.300231", "value": "银信科技", "marketT": "sz" },
-    { "key": "0.000058", "value": "深 赛 格", "marketT": "sz" },
+    { "key": "0.000058", "value": "深赛格", "marketT": "sz" },
     { "key": "1.600626", "value": "申达股份", "marketT": "sh" },
     { "key": "1.600266", "value": "城建发展", "marketT": "sh" },
     { "key": "0.002861", "value": "瀛通通讯", "marketT": "sz" },

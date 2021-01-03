@@ -42,6 +42,8 @@ var stockCashFlowRoute = require("./routes/stockCashFlow"); // 个股资金流�
 var bankuaiPartsRoute = require("./routes/bankuaiParts"); // 版块成分股
 var fenshiPRoute = require("./routes/FenShiSelectStock"); // 分时策略
 var fenshiLatestPRoute = require("./routes/fenshiLatestP"); // 分时查询
+var historyCashFlowRoute = require("./routes/historyCashFlow"); // 历史资金流
+var imediateCashFlowRoute = require("./routes/imediateCashFlow"); // 即时资金流
 
 
 // ------------------ 接口  ----------------------//
@@ -89,6 +91,12 @@ app.get('/fenshiSelectStock', fenshiPRoute)
 
 /*  10 分时价查询 */
 app.get('/fenshiLatestP', fenshiLatestPRoute)
+
+/*  11 个股历史资金流查询 */
+app.get('/historyCashFlow', historyCashFlowRoute)
+
+/*  12 个股即时资金流查询 */
+app.get('/imediateCashFlow', imediateCashFlowRoute)
 
 
 // ----------------   监听端口   ------------------//

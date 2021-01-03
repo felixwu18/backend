@@ -2,7 +2,7 @@ module.exports = [
     { "key": "1.603882", "value": "金域医学", "marketT": "sh" }, // ***
     { "key": "0.300685", "value": "艾德生物", "marketT": "sz" },
     { "key": "0.300482", "value": "万孚生物", "marketT": "sz" },
-    { "key": "0.002030", "value": "达安基因", "marketT": "sz" },
+    { "key": "0.002030", "value": "达安基因", "marketT": "sz" }, // ***
     { "key": "0.300244", "value": "迪安诊断", "marketT": "sz" },
     { "key": "1.603259", "value": "药明康德", "marketT": "sh" },
     { "key": "0.300016", "value": "北陆药业", "marketT": "sz" },
