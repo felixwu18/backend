@@ -21,7 +21,7 @@ module.exports.configsP = [
     { key: "1.601888", value: "中国中免", marketT: "sh" }, // 旅游
     { key: "0.002709", value: "天赐材料", marketT: "sz" }, // 电池 隔膜 正负极材料
     { key: "1.600884", value: "杉杉股份", marketT: "sh" }, // 电池 正负极材料
-    { key: "0.002812", value: "恩捷股份", marketT: "sz" }, // 电池
+    { key: "0.002812", value: "恩捷股份", marketT: "sz" }, // 电池 湿法隔膜龙头 1-3 目标价 150
     { key: "0.300618", value: "寒锐钴业", marketT: "sz" }, // 钴 B
     { key: "1.603799", value: "华友钴业", marketT: "sh" }, // 钴 下游终端 5G 手机及新能源汽车行业需求持续高增
     { key: "0.002460", value: "赣锋锂业", marketT: "sz" }, // 磷酸锂龙头 版块强势 股价历史新高

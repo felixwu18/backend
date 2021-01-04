@@ -3,8 +3,8 @@
 var download = require("../utils/http");
 
 module.exports = function (req, res) {
-    // const updateTime = String(Date.now()).slice(0, -3) * 1
-    const updateTime = String(new Date('2021-01-02 23:59').getTime()).slice(0, -3) * 1 // 制定最新时间，向过去时间截取
+    const updateTime = String(Date.now()).slice(0, -3) * 1
+    // const updateTime = String(new Date('2021-01-02 23:59').getTime()).slice(0, -3) * 1 // 制定最新时间，向过去时间截取
     const { size = 400, lastTime = updateTime, last_time = updateTime } = req.query;
     const service = 'https://www.cls.cn/nodeapi/telegraphList'
     const urlParams = `app=CailianpressWeb&category=&lastTime=${lastTime}&last_time=${last_time}&os=web&refresh_type=1&rn=${size}&sv=7.5.5&sign=19c471a4f20e1190c4e4c18ddffb657d`
