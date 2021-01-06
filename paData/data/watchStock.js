@@ -14,7 +14,7 @@ module.exports.configsP = [
     { key: "1.600587", value: "新华医疗", marketT: "sh" },
     { key: "0.002173", value: "创新医疗", marketT: "sz" },
     { key: "0.000708", value: "中信特钢", marketT: "sz" }, // 二段放量
-    { key: "0.002459", value: "晶澳科技", marketT: "sz" }, // 太阳能 特高压 专用设备 香港中央结算增持291.98%
+    { key: "0.002459", value: "晶澳科技", marketT: "sz" }, // 太阳能 特高压 专用设备 香港中央结算增持291.98% 业绩超预期，一体化龙头优势尽显
     { key: "1.603408", value: "建霖家居", marketT: "sh" },
     { key: "0.002287", value: "奇正藏药", marketT: "sz" },
     { key: "1.600375", value: "华菱星马", marketT: "sh" },
@@ -144,4 +144,6 @@ module.exports.configsP = [
     { "key": "0.002241", "value": "歌尔股份", "marketT": "sz" }, // 调整 TWS耳机高景气度
     { "key": "1.603308", "value": "应流股份", "marketT": "sh" },
     { "key": "1.600885", "value": "宏发股份", "marketT": "sh" }, // 高压直流继电器龙头 首次覆盖给予买入评级
+    { "key": "0.002506", "value": "协鑫集成", "marketT": "sz" }, // 大笔增资推进光伏组件大基地项目！这家公司刚斥巨资投建年产10GW光伏电池项目，此前投资的半导体项目直接受益国家集成电路产业政策大利好
+    { "key": "1.603806", "value": "福斯特", "marketT": "sh" }, // 光伏行业持续景气，2020年12月装机或超预期，这家公司产品全球市占率近5成
 ]

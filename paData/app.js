@@ -31,6 +31,8 @@ var setCacheFSPRoute = require("./routes/setCacheFSP"); // 写入缓存分时回
 var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回调
 var setCache120DayRoute = require("./routes/setCache120Day"); // 缓存半年数据
 var clsNewsRoute = require("./routes/clsNews"); // 缓存半年数据
+var ceshimysqlRoute = require("./routes/mysql/index"); // 测试mysql查询
+
 
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
 var configsRoute = require("./routes/base"); // 个股下拉配置数据
@@ -59,6 +61,8 @@ app.post('/setCache120Day', setCache120DayRoute) // 缓存半年数据
 app.post('/setFileNames', setFileNamesRoute) // 缓存已缓存的名录
 
 app.get('/getclsNews', clsNewsRoute) // 获取财联社数据
+
+app.get('/ceshimysql', ceshimysqlRoute) // 获取财联社数据
 
 
 
