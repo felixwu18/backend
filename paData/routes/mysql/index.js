@@ -20,7 +20,9 @@ module.exports = function (req, res) {
               }); // 启动链接 (连接提示)
 
 
-              const sql = `SELECT * FROM vavicatable`;
+              // const sql = `SELECT * FROM vavicatable`;
+              // const sql = `INSERT INTO vavicatable (n,a,m,e) VALUES(11,'Networkk',33,'Computer Networkk');`;
+              const sql = `DELETE FROM vavicatable WHERE n='11';`;
               /* 向数据库查询 */
               connection.query(sql, function (err, result) {
                             console.log(result)
