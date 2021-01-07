@@ -304,7 +304,7 @@ module.exports.configsP = [
     { "key": "1.600436", "value": "片仔癀", "marketT": "sh" }, //  大消费龙头
     { "key": "0.000977", "value": "浪潮信息", "marketT": "sz" }, // 科技龙头
     { "key": "0.002511", "value": "中顺洁柔", "marketT": "sz" }, //  大消费龙头
-    { "key": "0.002557", "value": "洽洽食品", "marketT": "sz" }, // 大消费龙头
+    { "key": "0.002557", "value": "洽洽食品", "marketT": "sz" }, // 大消费龙头 休闲食品龙头
     { "key": "1.603259", "value": "药明康德", "marketT": "sh" }, // 大消费龙头
     { "key": "1.600176", "value": "中国巨石", "marketT": "sh" }, // 周期龙头
     { "key": "1.600845", "value": "宝信软件", "marketT": "sh" }, // 科技龙头
