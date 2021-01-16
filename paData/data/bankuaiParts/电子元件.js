@@ -228,7 +228,7 @@ module.exports = [
     { "key": "0.002475", "value": "立讯精密", "marketT": "sz" },
     { "key": "0.300566", "value": "激智科技", "marketT": "sz" },
     { "key": "0.300793", "value": "佳禾智能", "marketT": "sz" },
-    { "key": "1.600703", "value": "三安光电", "marketT": "sh" },
+    { "key": "1.600703", "value": "三安光电", "marketT": "sh" }, // ***
     { "key": "1.688608", "value": "恒玄科技", "marketT": "sh" },
     { "key": "1.600651", "value": "*ST飞乐", "marketT": "sh" },
     { "key": "1.600462", "value": "*ST九有", "marketT": "sh" },
