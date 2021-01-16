@@ -1,0 +1,31 @@
+[F10]
+ADSTR1=
+ADSTR2=
+[URL]
+CompanyWebURL=http://www.tdx.com.cn/url/jump.asp?setcode=##SETCODE##&code=xxxxxx
+FreePopURL=http://www.tdx.com.cn/softad/freepop.htm?core=##mainexe_ver##
+HKCenterURL=http://www.tdx.com.cn/url/hk/
+HKJyTimeURL=http://www.hkex.com.hk/chi/market/sec_tradinfo/tradcal/nont10_c.htm
+ZDLogoPopURL=
+LastestVer=7.45
+HKTLogoPopURL=
+LeadLogoPopURL=
+QuitInfoUrl=http://www.tdx.com.cn/softad/freepop_ex.htm
+QuitInfoUrl_Free=http://www.tdx.com.cn/softad/freepop_ex.htm
+SwitchADStr=新用户福利专享
+SwitchADStr_Free=新用户福利专享
+SwitchADUrl=https://vip.tdx.com.cn/site/app/pc-mall/shaky.html?&version=202009041719&advId=21&advName=%E5%AE%98%E7%BD%91
+SwitchADUrl_Free=https://vip.tdx.com.cn/site/app/pc-mall/shaky.html?&version=202009041719&advId=21&advName=%E5%AE%98%E7%BD%91
+DownFinHQURL=abhq://calc2.tdx.com.cn:7709/
+DownFinHQURL2=abhq://calc.tdx.com.cn:7709/
+FreePopURL_QHT=http://www.tdx.com.cn/softad/freepop_qht.htm?core=##mainexe_ver##
+[Mail]
+MailContent1=通达信个人版商城 http://vip.tdx.com.cn/site/app/level2/
+MailContent2=关注通达信微博 http://weibo.com/tongdaxin
+[Data]
+SpecFgName=外资背景,高校背景,养老金,股份回购,被举牌,国开持股,股权转让,送转潜力,预高送转,已高送转,股权分散,MSCI成份,中小银行,壳资源,要约收购,海外业务,基金独门,密集调研,
+RecentHSHoliday=20201001,20201002,20201005,20201006,20201007,20201008,20210101,20210211,20210212,20210215,20210216,20210217,20210405,20210503,20210504,20210505,20210614,20210920,20210921,20211001,20211004,20211005,20211006,20211007,
+RecentDEHoliday=20201231,20210101,20210402,20210405,20210524,20211224,20211231,
+RecentUSHoliday=20201225,20210101,20210118,20210215,20210314,20210402,20210531,20210705,20210906,20211107,20211125,20211126,20211224,
+RecentHKHoliday=20201225,20210101,20210211,20210212,20210215,20210402,20210405,20210406,20210519,20210614,20210701,20210922,20211001,20211014,20211224,20211227,20211231,
+SHFE_SC=SC,NR,LU,BC,

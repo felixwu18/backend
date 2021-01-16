@@ -66,8 +66,8 @@ module.exports = function (req, resp) {
                 const consditon2 = blp20aSelect(res.data.klines.reverse().slice(1))
 
                 /* 阴阳互换 */
-                if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-                const consditon3 = yyhhSelect(res.data.klines.reverse().slice(1))
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                // const consditon3 = yyhhSelect(res.data.klines.reverse().slice(1))
 
                 /* 三阳上轨 */
                 // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
@@ -77,7 +77,7 @@ module.exports = function (req, resp) {
                 // if (consditon&&mastersBuyCondition) {
                     console.log(item.value, 'item.value--')
                 const consditonNoST = item.value.search('ST') === -1 && item.value.indexOf('*ST') === -1
-                const consditon = consditon1 || consditon2 || consditon3
+                const consditon = consditon1 || consditon2
                 if (consditon && consditonNoST) {
                     finalSelects.push(item)
                 }
