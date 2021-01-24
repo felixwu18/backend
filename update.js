@@ -3,9 +3,10 @@ var axios = require("axios");
 const updateList = require('./paData/data/fenshi/names/index')
 
 const configsAllP = require('./paData/data/HSAFormat') // 沪深A 4250
-// const updateList = ['隆基股份', '上机数控', '金晶科技', '智慧农业', '鸿远电子', '天赐材料', '四方科技', '淮北矿业', '涪陵榨菜', '福莱特', '比亚迪', '宝丰能源', '老白干酒', 'TCL科技', '伊力特', '兴业银行', '新日股份', '小康股份', '五洲特纸', '双汇发展', '天际股份', '士兰微', '泉阳泉', '西王食品', '名臣健康', '立昂微', '科沃斯', '华友钴业', '恒润股份']
 console.log(updateList, `updateList----${updateList.length}---`)
+
 updateList.forEach((name, index) => {
+    // updateList.slice(130).forEach((name, index) => {
     setTimeout(() => {
         const currentItem = configsAllP.find(item => item.value === name) || {}
         console.log(currentItem.key, `===>${index}`)
@@ -15,7 +16,13 @@ updateList.forEach((name, index) => {
     }, 2200 * index)
 })
 
-
+// /* 特殊情况 遗漏再更新 */
+// const keys = ['1.600019', '0.000858']
+// keys.forEach((key, index) => {
+//     setTimeout(() => {
+//             update(key)
+//     }, 2200 * index)
+// })
 
 
 /* 最新分时间推送后台 */
@@ -30,6 +37,17 @@ function pushLatestFSP(params = {}) {
             console.error(err, 'pushLatestFSP--err')
         })
 }
+// /* 缓存半年个股最新价格数据 */
+// function setCacheData(params = {}) {
+//     const url = `http://127.0.0.1:4000/setCache120Day`
+//     axios.post(url, params)
+//         .then(res => {
+//             const data = res.data
+//         })
+//         .catch(err => {
+//             console.error(err)
+//         })
+// }
 
 /* 分时价查询 三方接口 */
 function getFSP(params = {}) {
@@ -97,14 +115,27 @@ function unique(arr) {
 
 async function update(secid) {
     let resFSP = await getFSP({ secid, ndays: 5 }); // 时间降序
+
+    // /* 特殊情况 */
+    // let resFSP = '1'
     let cacheFSP = await getCacheFSP({ secid, });  // 时间降序
     if (cacheFSP === '文件读取失败' || cacheFSP === '') {
         console.log('没有缓存数据, 同步缓存最新数据', secid)
         pushLatestFSP({
-            secid: this.selectVal,
+            secid,
             data: resFSP
         })
     } else {
+        // /* 特殊情况 */
+        // const year = new Date().getFullYear()
+        // const mounth = new Date().getMonth() + 1
+        // const day = new Date().getDate()
+        // const nowDate = `${year}-${String(mounth).length === 1 ? 0 + String(mounth) : mounth}-${day}`
+        // if ([1, 2, 3, 4, 5].includes(new Date().getDay()) && nowDate === cacheFSP.slice(-1)[0].slice(0, 10)) {
+        //     console.log('已更新')
+        // } else {
+
+        // let resFSP = await  getFSP({ secid, ndays: 5 }); // 时间降序
         if (resFSP.slice(-1)[0].slice(0, 10) !== cacheFSP.slice(-1)[0].slice(0, 10)) { // 最新数据一样，不处理
             resFSP = mergeFSP({ resFSP, cacheFSP }) // 同步三方重写
             if (!resFSP) { return }
@@ -114,5 +145,7 @@ async function update(secid) {
                 data: resFSP
             })
         }
+
+        // }
     }
 }
