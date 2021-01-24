@@ -14,8 +14,8 @@ module.exports = function download(url, callback, type) {
         callback(data);
       });
     })
-    .on("error", function () {
-      callback(null);
+    .on("error", function (error) {
+      callback(error);
     });
 }
 

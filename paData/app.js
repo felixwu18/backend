@@ -35,6 +35,7 @@ var ceshimysqlRoute = require("./routes/mysql/index"); // 测试mysql查询
 
 
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
+var toDoRoutePCache = require("./routes/latestPCache"); // 最新个股价 缓存
 var configsRoute = require("./routes/base"); // 个股下拉配置数据
 var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
 var rzrqConfigsRoute = require("./routes/rzrq"); // 融资融券
@@ -68,6 +69,7 @@ app.get('/ceshimysql', ceshimysqlRoute) // 获取财联社数据
 
 /* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)
+app.get('/latestPCache', toDoRoutePCache)
 
 /* 2 获取个股最新Price参数配置数据接口 */
 app.get('/latestPQuery', configsRoute)

@@ -1,4 +1,5 @@
 module.exports = [
+    { "key": "1.000001", "value": "上证指数", "marketT": "sh" },
     { "key": "1.601686", "value": "N友发", "marketT": "sh" },
     { "key": "0.003021", "value": "N兆威", "marketT": "sz" },
     { "key": "0.300858", "value": "科拓生物", "marketT": "sz" },
@@ -2489,7 +2490,7 @@ module.exports = [
     { "key": "0.000952", "value": "广济药业", "marketT": "sz" },
     { "key": "1.603855", "value": "华荣股份", "marketT": "sh" },
     { "key": "0.002987", "value": "京北方", "marketT": "sz" },
-    { "key": "0.002001", "value": "新 和 成", "marketT": "sz" },
+    { "key": "0.002001", "value": "新和成", "marketT": "sz" },
     { "key": "1.603332", "value": "苏州龙杰", "marketT": "sh" },
     { "key": "1.600185", "value": "格力地产", "marketT": "sh" },
     { "key": "1.600119", "value": "ST长投", "marketT": "sh" },

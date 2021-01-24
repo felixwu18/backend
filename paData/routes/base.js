@@ -11,5 +11,6 @@ const configsP = require('../data/latestP') // 自选类
 const configsAllP = require('../data/HSAFormat') // 沪深A 4250
 
 module.exports = function (req, res) {
+      console.log('configsP请求')
       res.send(configsP);
 }
