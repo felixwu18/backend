@@ -14,6 +14,7 @@ module.exports = function (req, res) {
         fs.writeFile(writePath, JSON.stringify(file), (err, m) => {
             res.send(`${fileName}--分时数据缓存写入成功`)
             console.log(err, m, `err--m-${fileName}分时数据缓存写入成功！`)
+            console.log(`-----------------------------------------------------------------------------------${"\n"}`)
         }); //将文件写入磁盘
     }
 }

@@ -47,6 +47,9 @@ var fenshiPRoute = require("./routes/FenShiSelectStock"); // 分时策略
 var fenshiLatestPRoute = require("./routes/fenshiLatestP"); // 分时查询
 var historyCashFlowRoute = require("./routes/historyCashFlow"); // 历史资金流
 var imediateCashFlowRoute = require("./routes/imediateCashFlow"); // 即时资金流
+var dzjLatestRoute = require("./routes/dzjLatest"); // 大资金持股情况
+var dzjSelectStockRoute = require("./routes/dzjSelectStock"); // 大资金持股选股
+var yearROERoute = require("./routes/yearROE"); // 年资产收益率 15%以上为优秀， 10%以上也不错
 
 
 // ------------------ 接口  ----------------------//
@@ -85,6 +88,8 @@ app.get('/HSAStock', HSAStockRoute)
 
 /* 6 形态选股 */
 app.get('/XTSelectStock', XTSelectStockRoute)
+app.get('/dzjSelectStock', dzjSelectStockRoute)
+
 
 /*  7 个股资金流向 */
 app.get('/stockCashFlow', stockCashFlowRoute)
@@ -103,6 +108,12 @@ app.get('/historyCashFlow', historyCashFlowRoute)
 
 /*  12 个股即时资金流查询 */
 app.get('/imediateCashFlow', imediateCashFlowRoute)
+
+/*  13 个股大资金情况查询 */
+app.get('/dzjLatest', dzjLatestRoute)
+
+/*  14 年资产收益率查询 */
+app.get('/yearROE', yearROERoute)
 
 
 // ----------------   监听端口   ------------------//

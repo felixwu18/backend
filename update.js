@@ -4,26 +4,52 @@ const updateList = require('./paData/data/fenshi/names/index')
 
 const configsAllP = require('./paData/data/HSAFormat') // 沪深A 4250
 console.log(updateList, `updateList----${updateList.length}---`)
-
+const writeFailArr = []
 updateList.forEach((name, index) => {
     // updateList.slice(130).forEach((name, index) => {
     setTimeout(() => {
         const currentItem = configsAllP.find(item => item.value === name) || {}
-        console.log(currentItem.key, `===>${index}`)
+        console.log(currentItem.key, `===> ${index} ===> ${currentItem.value}`)
         if (currentItem.key) {
-            update(currentItem.key)
+            update(currentItem)
+        }
+        /* 最后将更新失败的列出 */
+        if (updateList.length === index + 1) {
+            console.log(writeFailArr, `failWritStock<=== ${writeFailArr.length}`) 
         }
     }, 2200 * index)
 })
 
 // /* 特殊情况 遗漏再更新 */
-// const keys = ['1.600019', '0.000858']
-// keys.forEach((key, index) => {
+// const items = [ '江西铜业',
+// '汤臣倍健',
+// '法拉电子',
+// '泰格医药',
+// '洪都航空',
+// '海尔智家',
+// '玲珑轮胎',
+// '瑞丰新材',
+// '用友网络',
+// '生益科技',
+// '百润股份',
+// '益丰药房',
+// '益生股份',
+// '盘江股份',
+// '石基信息',
+// '神火股份',
+// '福耀玻璃',
+// '禾望电气',
+// '顺鑫农业' ]
+// console.log(items, `items----${items.length}---`)
+// items.forEach((name, index) => {
 //     setTimeout(() => {
-//             update(key)
+//         const currentItem = configsAllP.find(item => item.value === name) || {}
+//         console.log(currentItem.key, `===> ${index} ===> ${currentItem.value}`)
+//         if (currentItem.key) {
+//             update(currentItem)
+//         }
 //     }, 2200 * index)
 // })
-
 
 /* 最新分时间推送后台 */
 function pushLatestFSP(params = {}) {
@@ -50,9 +76,9 @@ function pushLatestFSP(params = {}) {
 // }
 
 /* 分时价查询 三方接口 */
-function getFSP(params = {}) {
+function getFSP({ secid, ndays, value }) {
     return new Promise((resolve => {
-        const queryStr = objToUrlParamss(params)
+        const queryStr = objToUrlParamss({ secid, ndays })
         axios.get(`http://127.0.0.1:4000/fenshiLatestP?${queryStr}`)
             .then(res => {
                 const data = res.data.trends
@@ -60,7 +86,10 @@ function getFSP(params = {}) {
                 resolve(data)
             })
             .catch(err => {
-                console.error(err, 'getFSP--err')
+                console.error(err, `--${value}--getFSP--err`)
+                writeFailArr.push(value)
+                console.log(writeFailArr, `failWritStock<=== ${writeFailArr.length}`)
+                console.log(`-----------------------------------------------------------------------------------${"\n"}`)
             })
     }))
 }
@@ -113,8 +142,8 @@ function unique(arr) {
     return uniqueArr
 }
 
-async function update(secid) {
-    let resFSP = await getFSP({ secid, ndays: 5 }); // 时间降序
+async function update({ key: secid, value }) {
+    let resFSP = await getFSP({ secid, ndays: 5, value }); // 时间降序
 
     // /* 特殊情况 */
     // let resFSP = '1'

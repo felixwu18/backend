@@ -8,29 +8,33 @@ const configsAllP = require('./paData/data/HSAFormat') // 沪深A 4250
 console.log(updateList, `updateList----${updateList.length}---`)
 const writeFailArr = []
 
-updateList.forEach((name, index) => {
-     // updateList.slice(0, 2).forEach((name, index) => {
-     setTimeout(() => {
-          const currentItem = configsAllP.find(item => item.value === name) || {}
-          console.log(currentItem.key, `===>${index}`)
-          if (currentItem.key) {
-               update(currentItem)
-          }
-     }, 4000 * index)
-})
-
-// // /* 特殊情况 遗漏再更新 */
-// // const keys = ['0.002610', '0.002747']
-// const values = [ '盛新锂能' ]
-// const items = values
-// console.log(items, `itemsList----${items.length}---`)
-// items.forEach((name, index) => {
+// updateList.forEach((name, index) => {
+//      // updateList.slice(100).forEach((name, index) => {
 //      setTimeout(() => {
 //           const currentItem = configsAllP.find(item => item.value === name) || {}
 //           console.log(currentItem.key, `===>${index}`)
-//           update(currentItem)
-//      }, 3000 * index)
+//           if (currentItem.key) {
+//                update(currentItem)
+//           }
+//         /* 最后将更新失败的列出 */
+//         if (updateList.length === index + 1) {
+//           console.log(writeFailArr, `failWritStock<=== ${writeFailArr.length}`) 
+//       }
+//    }, 4000 * index)
 // })
+
+// /* 特殊情况 遗漏再更新 */
+// const keys = ['0.002610', '0.002747']
+const values = [ '德赛电池' ]
+const items = values
+console.log(items, `itemsList----${items.length}---`)
+items.forEach((name, index) => {
+     setTimeout(() => {
+          const currentItem = configsAllP.find(item => item.value === name) || {}
+          console.log(currentItem.key, `===>${index}`)
+          update(currentItem)
+     }, 3000 * index)
+})
 
 async function update({ key: secid, value }) {
      try {
