@@ -1,6 +1,6 @@
 [DEAFULTGP]
 Name=板块联动
-GPSetCode_Code1=0_000925
+GPSetCode_Code1=0_300761
 GPSetCode_Code2=1_600801
 GPSetCode_Code3=1_600802
 GPSetCode_Code4=1_600803
@@ -35,8 +35,6 @@ RelType=0
 CTPGroupType=0
 AutoSize=0
 FixedSwitchMode=0
-PadHelpStr=
-crTipWord=0
 [STEP0]
 SplitWhich=-1
 UnitType=RMREPORT_UNIT
@@ -67,7 +65,7 @@ IsContrallUnit=0
 IsLocked=0
 Fixed_Width=670
 Fixed_Height=0
-InitShowNum=19
+InitShowNum=10
 WndNum=2
 FXPeriod=5
 Formula01=MA
@@ -96,7 +94,7 @@ IsLocked=0
 Fixed_Width=0
 Fixed_Height=0
 GPType=-1
-BlockFlag=1370
+BlockFlag=1084
 ZAFMode=1
 ConceptBlockName=次新股
 UnitStr=所有市场
@@ -111,7 +109,7 @@ GridNoSwitch=0
 ShowRefreshBtn=1
 GridPrivateCol=0
 ColString=
-ZSBlockName=半导体50
+ZSBlockName=腾讯济安
 FGBlockName=次新开板
 [STEP3]
 SplitWhich=1
@@ -158,7 +156,6 @@ ZstUnitSwitch=0
 ZSTManyDay=1
 ManyDayZST=0
 ShowRefreshBtn=1
-ZBWinNum=0
 [Habit]
 CurBlockFlag1=0
 [STEP5]

@@ -22,7 +22,7 @@ module.exports = function (req, resp) {
         // resp.send(res)
         const file = `module.exports = ${JSON.stringify(res)}`;
         const fileName = currentItem.value
-        let writePath = `H:\\stock\\backend\\paData\\data\\latestP\\${fileName}.js`; //生成目录
+        let writePath = `F:\\stock\\backend\\paData\\data\\latestP\\${fileName}.js`; //生成目录
         // console.log(res, 'res <=======')
         fs.writeFile(writePath, file, (err, m) => {
             // resp.send('写入成功！')

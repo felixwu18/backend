@@ -78,7 +78,7 @@ module.exports = function (req, resp) {
     })
 
     /* 定时取数据 */
-    let writePath = 'H:\\stock\\backend\\paData\\data\\jztdSelect-12-18.js'; //生成目录
+    let writePath = 'F:\\stock\\backend\\paData\\data\\jztdSelect-12-18.js'; //生成目录
     setInterval(() => {
         console.log(finalSelects, '=======>finalSelects')
     }, 1000 * 2);

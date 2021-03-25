@@ -10,7 +10,7 @@ module.exports = function (req, res) {
     if (currentItem && data) {
         const file = data;
         const fileName = currentItem.value
-        let writePath = `H:\\stock\\backend\\paData\\data\\fenshi\\${fileName}.json`; //生成目录
+        let writePath = `F:\\stock\\backend\\paData\\data\\fenshi\\${fileName}.json`; //生成目录
         fs.writeFile(writePath, JSON.stringify(file), (err, m) => {
             res.send(`${fileName}--分时数据缓存写入成功`)
             console.log(err, m, `err--m-${fileName}分时数据缓存写入成功！`)

@@ -17,7 +17,7 @@ const codeToSecid = require('../utils/codeToSecid')
 module.exports = function (req, res) {
               /* _ 更新最新数据 沪深A 4250 只  po升降序指标 fid 排序参考指标*/
               const finalSelects = []
-              const writePath = 'H:\\stock\\backend\\paData\\data\\dzjSelect-01-24-精选.js'; //生成文件
+              const writePath = 'F:\\stock\\backend\\paData\\data\\dzjSelect-01-24-精选.js'; //生成文件
               // configsAllP.forEach((item, index) => {
                   configsAllP.slice(1151).forEach((item, index) => {
               // var aa = [{ "key": "0.002648", "value": "卫星石化", "marketT": "sz" }]
@@ -64,7 +64,7 @@ module.exports = function (req, res) {
               })
 
               /* 定时取数据 */
-              // let writePath = 'H:\\stock\\backend\\paData\\data\\dzjSelect-01-24.js'; //生成文件
+              // let writePath = 'F:\\stock\\backend\\paData\\data\\dzjSelect-01-24.js'; //生成文件
               setInterval(() => {
                             console.log(finalSelects, `====${finalSelects.length}===>finalSelects`)
               }, 1000 * 3);

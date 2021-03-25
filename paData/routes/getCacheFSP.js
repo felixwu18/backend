@@ -6,7 +6,7 @@ module.exports = function (req, res) {
     const { secid } = req.query
     const currentItem = configsAllP.find(item => item.key === secid) || {}
     const fileName = currentItem.value
-    const file = `H:\\stock\\backend\\paData\\data\\fenshi\\${fileName}.json`;
+    const file = `F:\\stock\\backend\\paData\\data\\fenshi\\${fileName}.json`;
     console.log('==>',fileName)
     if (currentItem) {
         //从内存中读取文件

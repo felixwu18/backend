@@ -27,7 +27,7 @@ module.exports = function (req, resp) {
         if(!data || !currentItem) { return }
         const file = `module.exports = ${JSON.stringify(data)}`;
         const fileName = currentItem.value
-        let writePath = `H:\\stock\\backend\\paData\\data\\latestP\\${fileName}.js`; //生成目录
+        let writePath = `F:\\stock\\backend\\paData\\data\\latestP\\${fileName}.js`; //生成目录
         fs.writeFile(writePath, file, (err, m) => {
             // resp.send('写入成功！')
             // resp.send(`${fileName}--lataetP缓存写入成功`)

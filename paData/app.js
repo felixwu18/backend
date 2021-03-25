@@ -31,11 +31,12 @@ var setCacheFSPRoute = require("./routes/setCacheFSP"); // 写入缓存分时回
 var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回调
 var setCache120DayRoute = require("./routes/setCache120Day"); // 缓存半年数据
 var clsNewsRoute = require("./routes/clsNews"); // 缓存半年数据
-var ceshimysqlRoute = require("./routes/mysql/index"); // 测试mysql查询
+// var ceshimysqlRoute = require("./routes/mysql/index"); // 测试mysql查询
 
 
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
 var toDoRoutePCache = require("./routes/latestPCache"); // 最新个股价 缓存
+var toDoRoutePAll = require("./routes/latestPAll"); // 模糊查询所有最新个股价
 var configsRoute = require("./routes/base"); // 个股下拉配置数据
 var bankuaiConfigsRoute = require("./routes/bankuaiP"); // 版块下拉配置数据
 var rzrqConfigsRoute = require("./routes/rzrq"); // 融资融券
@@ -50,7 +51,7 @@ var imediateCashFlowRoute = require("./routes/imediateCashFlow"); // 即时资�
 var dzjLatestRoute = require("./routes/dzjLatest"); // 大资金持股情况
 var dzjSelectStockRoute = require("./routes/dzjSelectStock"); // 大资金持股选股
 var yearROERoute = require("./routes/yearROE"); // 年资产收益率 15%以上为优秀， 10%以上也不错
-
+var FinanceTableDataRoute = require("./routes/FinanceTableData"); // 财务分析数据 营业收入， 净利润等
 
 // ------------------ 接口  ----------------------//
 
@@ -66,13 +67,14 @@ app.post('/setFileNames', setFileNamesRoute) // 缓存已缓存的名录
 
 app.get('/getclsNews', clsNewsRoute) // 获取财联社数据
 
-app.get('/ceshimysql', ceshimysqlRoute) // 获取财联社数据
+// app.get('/ceshimysql', ceshimysqlRoute) // 获取财联社数据
 
 
 
 /* 1 最新Price接口 */
 app.get('/latestP', toDoRouteP)
 app.get('/latestPCache', toDoRoutePCache)
+app.get('/latestPAll', toDoRoutePAll) // 模糊查询 所有股数据
 
 /* 2 获取个股最新Price参数配置数据接口 */
 app.get('/latestPQuery', configsRoute)
@@ -114,6 +116,10 @@ app.get('/dzjLatest', dzjLatestRoute)
 
 /*  14 年资产收益率查询 */
 app.get('/yearROE', yearROERoute)
+
+/*  15 财务数据(营业收入，净利润等)查询 */
+app.get('/FinanceTableData', FinanceTableDataRoute)
+
 
 
 // ----------------   监听端口   ------------------//

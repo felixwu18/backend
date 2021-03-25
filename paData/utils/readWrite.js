@@ -9,8 +9,8 @@ var fs = require("fs"); //文件模块
 module.exports = function writeD() {
     const file = './data/20201206HSA.json';
     // let writePath = __dirname + "/data/" + 'HSAFormat.json'; //生成目录
-    let writePath = 'H:\\stock\\backend\\paData\\data\\HSAFormat.json'; //生成目录
-    // 'H:\stock\backend\paData\data\HSAFormat.json
+    let writePath = 'F:\\stock\\backend\\paData\\data\\HSAFormat.json'; //生成目录
+    // 'F:\stock\backend\paData\data\HSAFormat.json
     //从内存中读取文件
     fs.readFile(file, 'utf-8', (err, data) => {
         if (err) {

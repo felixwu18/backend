@@ -8,7 +8,7 @@ var fs = require("fs"); //文件模块
 
 module.exports = function (req, res) {
     const bankuaiFileName = '人工智能'
-    const writePath = `H:\\stock\\backend\\paData\\data\\bankuaiParts\\${bankuaiFileName}.js`; //生成目录文件
+    const writePath = `F:\\stock\\backend\\paData\\data\\bankuaiParts\\${bankuaiFileName}.js`; //生成目录文件
     const { size = 300, current = 1, bkid = 'BK0800', updateTime: _ = Date.now() } = req.query;
     /* 机构持仓个股 */
     // http://dcfm.eastmoney.com//em_mutisvcexpandinterface/api/js/get?type=NSHDDETAIL&token=70f12f2f4f091e459a279469fe49eca5&cmd=&st=RDATE,NDATE&sr=3&p=2&ps=50&filter=(SHAREHDCODE=%2780195926%27)&js={pages:(tp),data:(x)}

@@ -87,7 +87,7 @@ module.exports = function (req, resp) {
     })
 
     /* 定时取数据 */
-    let writePath = 'H:\\stock\\backend\\paData\\data\\yhhhSelect-12-19.js'; //生成文件
+    let writePath = 'F:\\stock\\backend\\paData\\data\\yhhhSelect-12-19.js'; //生成文件
     setInterval(() => {
         console.log(finalSelects, `====${finalSelects.length}===>finalSelects`)
     }, 1000 * 3);

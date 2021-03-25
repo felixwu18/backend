@@ -7,7 +7,7 @@ module.exports = function (req, res) {
     const currentItem = configsAllP.find(item => item.key === secid) || {}
     console.log('==>',secid)
     const fileName = currentItem.value
-    const file = `H:\\stock\\backend\\paData\\data\\latestP\\${fileName}.js`;
+    const file = `F:\\stock\\backend\\paData\\data\\latestP\\${fileName}.js`;
     const data = require(file)
     console.log('==>',fileName)
     res.send(data)
