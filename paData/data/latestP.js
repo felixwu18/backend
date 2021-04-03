@@ -511,4 +511,5 @@ module.exports.configsP = [
     { "key": "0.003026", "value": "中晶科技", "marketT": "sz" }, // 特殊时期 大涨 半导体
     { "key": "0.002810", "value": "山东赫达", "marketT": "sz" }, // 高成长 化工行业 新材料  最早进入水溶性高分子化合物
     { "key": "0.002539", "value": "云图控股", "marketT": "sz" },
+    { "key": "0.002192", "value": "*ST融捷", "marketT": "sz" },
 ]

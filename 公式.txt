@@ -1,0 +1,29 @@
+一，黄金线
+DIR1:=ABS(CLOSE-REF(CLOSE,5));
+VIR1:=SUM(ABS(CLOSE-REF(CLOSE,1)),5);
+ER1:=DIR1/VIR1;
+CS1:=ER1*(0.8-2/8)+2/8;
+CQ1:=CS1*CS1;
+AMA1:=EMA(DMA(CLOSE,CQ1),2) ,COLORWHITE;
+DIR2:=ABS(CLOSE-REF(CLOSE,10));
+VIR2:=SUM(ABS(CLOSE-REF(CLOSE,1)),10);
+ER2:=DIR2/VIR2;
+CS2:=ER2*(0.8-2/24)+2/24;
+CQ2:=CS2*CS2;
+AMA2:EMA(DMA(CLOSE,CQ2),2),COLORGREEN,LINETHICK3;
+AMA3:IF(AMA2/REF(AMA2,1)>0.997,AMA2,DRAWNULL),COLORBLUE,LINETHICK3;
+AMA4:IF(AMA2/REF(AMA2,1)>1.001,AMA2,DRAWNULL),COLORRED,LINETHICK3;
+
+黄金线指标说明：
+指标特xing：上涨走势中，指标程快速上升状态，下跌走势中，指标呈快速下降状态，横盘走势中，指标呈水平状态，极真实的反应了股价的运行走势。
+指标线中加入了三种颜色，具体含义如下：
+红色：代表股价处于多头走势；
+蓝色：代表股价处于横盘走势；
+绿色：代表股价处于空头走势。
+六大使用法则：
+1、 指标由绿变红，走势可能由空头转成多头，可适量持仓Gupiao。
+2、 指标由红变绿，走势可能由多头转成空头，可适量卖出Gupiao。
+3、 指标由红变蓝，多头走势可能趋缓，进入盘整局势，可适量卖出或持股观望。
+4、 指标由蓝变绿，走势可能由盘整进入空头，可卖出Gupiao。
+5、 指标由蓝变红，走势可能由盘整进入多头，可买进Gupiao。
+6、 指标由绿变蓝，走势可能由空头转化成横盘走势，可持币观望，不介入。

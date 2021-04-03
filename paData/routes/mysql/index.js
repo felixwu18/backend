@@ -20,9 +20,9 @@ module.exports = function (req, res) {
               }); // 启动链接 (连接提示)
 
 
-              // const sql = `SELECT * FROM vavicatable`;
-              // const sql = `INSERT INTO vavicatable (n,a,m,e) VALUES(11,'Networkk',33,'Computer Networkk');`;
-              const sql = `DELETE FROM vavicatable WHERE n='11';`;
+              const sql = `SELECT * FROM biao`;
+            //   const sql = `INSERT INTO vavicatable (n,a,m,e) VALUES(11,'Networkk',33,'Computer Networkk');`;
+            //   const sql = `DELETE FROM ceshi WHERE n='11';`;
               /* 向数据库查询 */
               connection.query(sql, function (err, result) {
                             console.log(result)
@@ -33,9 +33,9 @@ module.exports = function (req, res) {
               connection.end(function (err) {
                             // console.log(err)
                             if (err) {
-                                          console.log("关闭连接失败");
+                                console.log("关闭连接失败");
                             } else {
-                                          console.log("--------------------------------------\n关闭连接成功");
+                                console.log("--------------------------------------\n关闭连接成功");
                             }
               }); //操作完成后记得加上这句关闭数据库链接
 }
