@@ -2,8 +2,8 @@
 /* 个股最新价格 服务端请求数据 */
 var axiosFetch = require("../utils/axiosRequest");
 var download = require("../utils/http");
-const configsAllP = require('../data/HSAFormat') // 沪深A 4250
-// const configsAllP = require('../data/syhh12-19') // syhh12-19
+// const configsAllP = require('../data/HSAFormat') // 沪深A 4250
+const configsAllP = require('../data/ROE-04-24') // ROESelect-04-24
 
 // const configsAllP = require('../data/bankuaiParts/食品饮料') // 板块类股
 var fs = require("fs"); //文件模块
@@ -20,38 +20,49 @@ const yyhhSelect = require('../utils/xtmethods/yyhh') // 阴阳互换
 const sysgSelect = require('../utils/xtmethods/sysg') // 三阳上轨
 
 const stockCashFlowWatch = require('./stockCashFlow') // 个股资金流向
+const ROESelectStock = require('./ROESelectStock') // 个股年ROE
 
-module.exports = function (req, resp) {
+module.exports = function selectFn(req, resp) {
     /* _ 更新最新数据 沪深A 4250 只  po升降序指标 fid 排序参考指标*/
+   
     const finalSelects = []
+    // const ttt = [{ key: '0.002594', value: '比亚迪', pym: 'byd', marketT: 'sz' }]
     configsAllP.forEach((item, index) => {
-        // configsAllP.slice(0, 1).forEach((item, index) => {
+        // configsAllP.slice(4050).forEach((item, index) => {
         /*secid id   _ 更新最新数据*/
-        // console.log(`${item.key}--${item.value}--${index}`)
+        console.log(`${item.key}--${item.value}--${index}`)
         // const secid = '1.600570' // 恒生电子
-        // const secid = '0.002594' 
+        // const secid = '0.002594'
         const secid = item.key
         const _ = Date.now() // 更新
         const service = 'http://55.push2his.eastmoney.com/api/qt/stock/kline/get'
         const urlParams = `secid=${secid}&ut=fa5fd1943c7b386f172d6893dbfba10b&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&end=20500101&lmt=120&_=${_}`
         const url = `${service}?${urlParams}`
+        console.log(url);
         setTimeout(() => {
-            download(url, res => {
-                // resp.send(data);
+            download(url, async res => {
+                // resp.send(res);
                 console.log(`${item.key}--${item.value}==> 最新个股信息查询成功`);
                 // console.log(typeof res)
                 res = JSON.parse(res)
                 if (!res.data) { return }
                 /* index 最高3 最低4 */
                 /* 上升三法 */
-                if (typeof res.data.klines !== 'object' || res.data.klines.length < 4) { return }
-                const consditon1 = sssfSelect(res.data.klines.reverse())
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 4) { return }
+                // const consditon1 = sssfSelect(res.data.klines.reverse())
                 /* 九阳洼地 */
                 // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
                 // const consditon = jywdSelect(res.data.klines.reverse())
 
                 /* 个股资金流向 */
                 // const mastersBuyCondition = await stockCashFlowWatch({secid})
+                
+                /* 个股年ROE */
+                // let ROECondition = false
+                // const ROECondition = await ROESelectStock({secid})
+                // ROESelectStock({secid}).then(res => {
+                //     ROECondition = res
+                // })
 
                 // /* 金针探底 */
                 // if (typeof res.data.klines !== 'object' || res.data.klines.length < 9) { return }
@@ -62,12 +73,12 @@ module.exports = function (req, resp) {
                 // const consditon = blqdSelect(res.data.klines.reverse())
 
                 /* 倍量突破20均 */
-                if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-                const consditon2 = blp20aSelect(res.data.klines.reverse().slice(1))
+                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                // const consditon2 = blp20aSelect(res.data.klines.reverse().slice(1))
 
                 /* 阴阳互换 */
-                // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
-                // const consditon3 = yyhhSelect(res.data.klines.reverse().slice(1))
+                if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
+                const consditon3 = yyhhSelect(res.data.klines.reverse().slice(1))
 
                 /* 三阳上轨 */
                 // if (typeof res.data.klines !== 'object' || res.data.klines.length < 20) { return }
@@ -75,19 +86,28 @@ module.exports = function (req, resp) {
 
 
                 // if (consditon&&mastersBuyCondition) {
-                    console.log(item.value, 'item.value--')
+                console.log(item.value, 'item.value--')
                 const consditonNoST = item.value.search('ST') === -1 && item.value.indexOf('*ST') === -1
-                const consditon = consditon1 || consditon2
+                // const consditon = consditon1 || consditon2
+                const consditon = consditon3
+                console.log('consditon3', consditon && consditonNoST);
                 if (consditon && consditonNoST) {
                     finalSelects.push(item)
                 }
                 console.log(`${consditon}--finalSelects---${index}`)
+                /* 最后一个处理后 写入数据 */
+                    setTimeout(() => {
+                        let writePath = 'F:\\stock\\backend\\paData\\data\\ROE(2)-04-24.js'; //生成文件
+                        const file = `module.exports = ${JSON.stringify(finalSelects)}`
+                        fs.writeFile(writePath, file, function (err, m) {
+                            console.log('==>finalSelects写入数据')
+                        }); //将文件写入磁盘
+                    }, 1000 * 30 * 7); // 一千只回调完 写数据
             })
-        }, 150 * index)
+        }, 200 * index)
     })
-
     /* 定时取数据 */
-    let writePath = 'F:\\stock\\backend\\paData\\data\\yhhhSelect-12-19.js'; //生成文件
+    let writePath = 'F:\\stock\\backend\\paData\\data\\ROESelect-04-new.js'; //生成文件
     setInterval(() => {
         console.log(finalSelects, `====${finalSelects.length}===>finalSelects`)
     }, 1000 * 3);

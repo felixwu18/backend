@@ -20,7 +20,7 @@ module.exports = [
     { "key": "0.300411", "value": "金盾股份", "marketT": "sz" },
     { "key": "0.300177", "value": "中海达", "marketT": "sz" },
     { "key": "1.600006", "value": "东风汽车", "marketT": "sh" }, // ***
-    { "key": "1.605118", "value": "力鼎光电", "marketT": "sh" },
+    { "key": "1.605118", "value": "力鼎光电", "marketT": "sh" }, // *** 汽车之眼
     { "key": "0.300114", "value": "中航电测", "marketT": "sz" },
     { "key": "0.300339", "value": "润和软件", "marketT": "sz" },
     { "key": "0.002456", "value": "欧菲光", "marketT": "sz" },
@@ -67,7 +67,7 @@ module.exports = [
     { "key": "0.002405", "value": "四维图新", "marketT": "sz" },
     { "key": "0.002463", "value": "沪电股份", "marketT": "sz" }, // ***
     { "key": "0.000951", "value": "中国重汽", "marketT": "sz" },
-    { "key": "1.603528", "value": "多伦科技", "marketT": "sh" },
+    { "key": "1.603528", "value": "多伦科技", "marketT": "sh" }, // ***
     { "key": "1.601766", "value": "中国中车", "marketT": "sh" },
     { "key": "1.601799", "value": "星宇股份", "marketT": "sh" },
     { "key": "1.603197", "value": "保隆科技", "marketT": "sh" },

@@ -96,6 +96,9 @@ app.get('/dzjSelectStock', dzjSelectStockRoute)
 /*  7 个股资金流向 */
 app.get('/stockCashFlow', stockCashFlowRoute)
 
+/*  7 个股资金流向 */
+app.get('/stockCashFlow', stockCashFlowRoute)
+
 /*  8 版块成分股 */
 app.get('/bankuaiParts', bankuaiPartsRoute)
 

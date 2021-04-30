@@ -137,7 +137,6 @@ module.exports.configsP = [
     // {key: '0.300821', value: '东岳硅材', pym: 'byd', marketT: 'sh'},
     { key: '1.601187', value: '厦门银行', pym: 'xmyh', marketT: 'sh' },
     { key: '0.002792', value: '通宇通讯', pym: 'tytx', marketT: 'sz' },
-    { key: '0.002463', value: '沪电股份', pym: 'hdgf', marketT: 'sz' }, // 科技龙头
     { key: '0.002837', value: '英维克', pym: 'ywk', marketT: 'sz' },
     { key: '1.600522', value: '中天科技', pym: 'ztkj', marketT: 'sh' },
     { key: '1.600487', value: '亨通光电', pym: 'htgd', marketT: 'sh' },
@@ -325,7 +324,6 @@ module.exports.configsP = [
     { "key": "0.000011", "value": "深物业A", "marketT": "sz" },
     { "key": "1.601966", "value": "玲珑轮胎", "marketT": "sh" }, // 放量突破盘整 回购股票 全球化布局 成为国内轮胎行业唯一一家同时通过通用汽车、福特汽车和大众汽车等跨国汽车厂商的全球供应商评审的企业  稳定、优质的客户资源,尤其是世界一线车企资源,将有效推动了公司新业务的开展和产品品质的提升,进一步巩固和加强本公司在同行业中的领先优势。
     { "key": "0.000676", "value": "智度股份", "marketT": "sz" }, // 三连板 公司一般
-    { "key": "0.000550", "value": "江铃汽车", "marketT": "sz" }, // ***
     { "key": "1.600006", "value": "东风汽车", "marketT": "sh" }, // ***
     { "key": "1.601633", "value": "长城汽车", "marketT": "sh" }, // ****
     { "key": "1.600418", "value": "江淮汽车", "marketT": "sh" }, // ***
@@ -397,7 +395,6 @@ module.exports.configsP = [
     { "key": "1.600185", "value": "格力地产", "marketT": "sh" }, // 香港中央结算增仓50点 3月评级整体买入
     { "key": "0.002044", "value": "美年健康", "marketT": "sz" }, // 控股260多家体检中心，联合阿里健康布局电商业务，这家公司位居机构净买入榜第一
     { "key": "0.002932", "value": "明德生物", "marketT": "sz" }, // 刚启动 去年净利预增逾13倍，成功研发新冠变异株鉴别试剂，已推出进口冷链食品一站式检测方案，机构大额净买入这家优质标的
-    { "key": "1.603698", "value": "航天工程", "marketT": "sh" },
     { "key": "1.600737", "value": "中粮糖业", "marketT": "sh" }, // 周期龙头
     { "key": "0.002372", "value": "伟星新材", "marketT": "sz" }, // 周期龙头
     { "key": "1.603619", "value": "中曼石油", "marketT": "sh" }, // 周期龙头
@@ -510,6 +507,12 @@ module.exports.configsP = [
     { "key": "1.600970", "value": "中材国际", "marketT": "sh" }, // 特殊时期 大涨
     { "key": "0.003026", "value": "中晶科技", "marketT": "sz" }, // 特殊时期 大涨 半导体
     { "key": "0.002810", "value": "山东赫达", "marketT": "sz" }, // 高成长 化工行业 新材料  最早进入水溶性高分子化合物
-    { "key": "0.002539", "value": "云图控股", "marketT": "sz" },
     { "key": "0.002192", "value": "*ST融捷", "marketT": "sz" },
+    { "key": "0.002152", "value": "广电运通", "marketT": "sz" },
+    { "key": "0.002436", "value": "兴森科技", "marketT": "sz" },
+    { "key": "0.002106", "value": "莱宝高科", "marketT": "sz" },
+    { "key": "1.600481", "value": "双良节能", "marketT": "sh" },
+    { "key": "0.002400", "value": "省广集团", "marketT": "sz" },
+    { "key": "1.603983", "value": "丸美股份", "marketT": "sh" },
+    { "key": "0.002980", "value": "华盛昌", "marketT": "sz" },
 ]

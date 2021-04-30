@@ -5,39 +5,39 @@ const updateList = require('./paData/data/fenshi/names/index')
 const configsAllP = require('./paData/data/HSAFormat') // 沪深A 4250
 console.log(updateList, `updateList----${updateList.length}---`)
 const writeFailArr = []
-// updateList.forEach((name, index) => {
-//     // updateList.slice(130).forEach((name, index) => {
-//     setTimeout(() => {
-//         const currentItem = configsAllP.find(item => item.value === name) || {}
-//         console.log(currentItem.key, `===> ${index} ===> ${currentItem.value}`)
-//         if (currentItem.key) {
-//             update(currentItem)
-//         }
-//         /* 最后将更新失败的列出 */
-//         if (updateList.length === index + 1) {
-//             console.log(writeFailArr, `failWritStock<=== ${writeFailArr.length}`) 
-//         }
-//     }, 2200 * index)
-// })
-
-/* 特殊情况 遗漏再更新 */
-const items = [
-  '东方盛虹', '国茂股份',
-  '安井食品', '恒立液压',
-  '瑞丰新材', '贝因美',
-  '麦格米特', '鼎龙股份',
-  '龙蟒佰利', '龙蟠科技'
-]
-console.log(items, `items----${items.length}---`)
-items.forEach((name, index) => {
+updateList.forEach((name, index) => {
+    debugger
+    // updateList.slice(130).forEach((name, index) => {
     setTimeout(() => {
         const currentItem = configsAllP.find(item => item.value === name) || {}
         console.log(currentItem.key, `===> ${index} ===> ${currentItem.value}`)
         if (currentItem.key) {
             update(currentItem)
         }
+        /* 最后将更新失败的列出 */
+        if (updateList.length === index + 1) {
+            console.log(writeFailArr, `failWritStock<=== ${writeFailArr.length}`) 
+        }
     }, 2200 * index)
 })
+
+// /* 特殊情况 遗漏再更新 */
+// const items = [
+//     '新华医疗', '新洁能',
+//     '日月股份', '朗姿股份',
+//     '杭叉集团', '深南电路',
+//     '爱施德',  '老白干酒'
+//   ]
+// console.log(items, `items----${items.length}---`)
+// items.forEach((name, index) => {
+//     setTimeout(() => {
+//         const currentItem = configsAllP.find(item => item.value === name) || {}
+//         console.log(currentItem.key, `===> ${index} ===> ${currentItem.value}`)
+//         if (currentItem.key) {
+//             update(currentItem)
+//         }
+//     }, 2200 * index)
+// })
 
 /* 最新分时间推送后台 */
 function pushLatestFSP(params = {}) {

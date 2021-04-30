@@ -1,6 +1,9 @@
 module.exports.configsP = [
+    { "key": "0.000661", "value": "长春高新", "marketT": "sz" },
     { key: "1.601888", value: "中国中免", marketT: "sh" }, // ***** 旅游  旅行社业务和免税业务 离岛免税进入新格局，但中免凭借规模+渠道优势仍将为最大受益者
     { key: '0.000568', value: '泸州老窖', pym: 'lzlj', marketT: 'sz' }, // 香港中央结算增持13.05点
+    { key: "1.600809", value: "山西汾酒", marketT: "sh" },
+    { "key": "1.603392", "value": "万泰生物", "marketT": "sh" },
     { "key": "0.000858", "value": "五粮液", "marketT": "sz" },
     { "key": "1.600436", "value": "片仔癀", "marketT": "sh" }, //  大消费龙头
     { "key": "1.603345", "value": "安井食品", "marketT": "sh" }, // 大消费龙头
@@ -9,16 +12,19 @@ module.exports.configsP = [
     { "key": "0.300347", "value": "泰格医药", "marketT": "sz" },
     { "key": "1.603444", "value": "吉比特", "marketT": "sh" }, // 网游 《一念逍遥》
     { "key": "1.603290", "value": "斯达半导", "marketT": "sh" },
-    { "key": "0.000538", "value": "云南白药", "marketT": "sz" },
     { "key": "0.300454", "value": "深信服", "marketT": "sz" },
     { key: '1.603501', value: '韦尔股份', pym: 'wegf', marketT: 'sh' }, // 科技龙头 净利暴增近5倍！这家销售额仅次于海思半导体的CIS龙头去年营收达200亿元，公司有望于2021年在0.7um小像素市场超过索尼，机构看50%上涨空间
     { key: "1.603129", value: "春风动力", marketT: "sh" }, // 水冷
-    { "key": "0.300655", "value": "晶瑞股份", "marketT": "sz" }, // 光刻胶 国产龙头大尺寸存储器晶圆实现批量销售，下游产品涨价幅度已超50%，这家公司已向其提供光刻胶产品
+    { "key": "0.000799", "value": "酒鬼酒", "marketT": "sz" },
+    { "key": "0.002821", "value": "凯莱英", "marketT": "sz" },
+    { "key": "1.600132", "value": "重庆啤酒", "marketT": "sh" },
     
+    { "key": "0.000538", "value": "云南白药", "marketT": "sz" },
     { key: "0.002612", value: "朗姿股份", marketT: "sz" }, // ***** 医美 牛股气质
     { key: "0.002709", value: "天赐材料", marketT: "sz" }, // ***** 电池 隔膜 正负极材料
     { key: "1.603799", value: "华友钴业", marketT: "sh" }, // ***** 钴 一体化锂电材料的龙头， 新能源加速长，钴价格却回落到历史低位水平， 资源循环回收利用 下游终端 5G 手机及新能源汽车行业需求持续高增 逻辑类福莱特
     { key: "0.002407", value: "多氟多", marketT: "sz" },  // ***** 六氟磷酸锂龙头 股价再次突破箱体 香港中央结算 545.15%
+    { "key": "0.300655", "value": "晶瑞股份", "marketT": "sz" }, // 光刻胶 国产龙头大尺寸存储器晶圆实现批量销售，下游产品涨价幅度已超50%，这家公司已向其提供光刻胶产品
     { key: '1.603025', value: '大豪科技', marketT: 'sh' }, // ***** 白酒 半导体 国产软件 智能机器 国产芯片 专用设备
     { key: "0.002444", value: "巨星科技", marketT: "sz" }, // *****
     { key: "1.605358", value: "立昂微", marketT: "sh" },  // ***** 半导体
@@ -44,7 +50,6 @@ module.exports.configsP = [
     { key: "0.002646", value: "青青稞酒", marketT: "sz" }, // 11-13
     { key: '1.603919', value: '金徽酒', marketT: 'sh' },
     { key: "1.600616", value: "金枫酒业", marketT: "sh" },
-    { key: "1.600809", value: "山西汾酒", marketT: "sh" },
     { key: "0.000596", value: "古井贡酒", marketT: "sz" },
     { key: "0.002507", value: "涪陵榨菜", marketT: "sz" }, // 食品 多品类
     { key: "1.600258", value: "首旅酒店", marketT: "sh" }, // 酒店

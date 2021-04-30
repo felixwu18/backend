@@ -7,9 +7,9 @@ var fs = require("fs"); //文件模块
 
 
 module.exports = function (req, res) {
-    const bankuaiFileName = '网络安全'
+    const bankuaiFileName = '二胎概念'
     const writePath = `F:\\stock\\backend\\paData\\data\\bankuaiParts\\${bankuaiFileName}.js`; //生成目录文件
-    const { size = 500, current = 1, bkid = 'BK0655', updateTime: _ = Date.now() } = req.query;
+    const { size = 500, current = 1, bkid = 'BK0664', updateTime: _ = Date.now() } = req.query;
     /* 板块个股 */
     const service = 'http://46.push2.eastmoney.com/api/qt/clist/get'
     const urlParams = `pz=${size}&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&pn=${current}&po=1&fid=f3&fs=b:${bkid}+f:!50&fields=f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,f24,f25,f22,f11,f62,f128,f136,f115,f152,f45&_=${_}`
