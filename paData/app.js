@@ -44,6 +44,7 @@ var HSAStockRoute = require("./routes/HSAStock"); // 沪深A
 var XTSelectStockRoute = require("./routes/XTSelectStock"); // 形态选股
 var stockCashFlowRoute = require("./routes/stockCashFlow"); // 个股资金流向
 var bankuaiPartsRoute = require("./routes/bankuaiParts"); // 版块成分股
+var historyCashFlowOfBanKuaiRoute = require("./routes/historyCashFlowOfBanKuai"); // 版块资金流向
 var fenshiPRoute = require("./routes/FenShiSelectStock"); // 分时策略
 var fenshiLatestPRoute = require("./routes/fenshiLatestP"); // 分时查询
 var historyCashFlowRoute = require("./routes/historyCashFlow"); // 历史资金流
@@ -101,6 +102,7 @@ app.get('/stockCashFlow', stockCashFlowRoute)
 
 /*  8 版块成分股 */
 app.get('/bankuaiParts', bankuaiPartsRoute)
+app.get('/historyCashFlowOfBanKuai', historyCashFlowOfBanKuaiRoute)
 
 /*  9 分时策略 */
 app.get('/fenshiSelectStock', fenshiPRoute)
