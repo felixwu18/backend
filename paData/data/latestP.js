@@ -216,7 +216,6 @@ module.exports.configsP = [
     { "key": "1.600586", "value": "金晶科技", "marketT": "sh" }, // 太阳能 新能源 的目标价 11.10 元  潜在股价涨幅 134%，首次覆盖给予“买入”评级 超白第一股，历史性拐点，产超白浮法玻璃原片，弹性巨大 
     { key: "1.600189", value: "泉阳泉", marketT: "sh" },
     { key: '0.002567', value: '唐人神', marketT: 'sz' },
-    { key: "1.601633", value: "长城汽车", marketT: "sh" },
     { key: "1.600309", value: "万华化学", marketT: "sh" }, // 周期龙头 聚氨酯全球龙头， 被誉为第五大塑料
     { key: "0.002240", value: "盛新锂能", marketT: "sz" },
     { key: "0.300034", value: "钢研高纳", marketT: "sz" },
