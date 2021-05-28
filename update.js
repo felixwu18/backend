@@ -6,7 +6,6 @@ const configsAllP = require('./paData/data/HSAFormat') // 沪深A 4250
 console.log(updateList, `updateList----${updateList.length}---`)
 const writeFailArr = []
 updateList.forEach((name, index) => {
-    debugger
     // updateList.slice(130).forEach((name, index) => {
     setTimeout(() => {
         const currentItem = configsAllP.find(item => item.value === name) || {}
