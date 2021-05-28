@@ -4249,5 +4249,6 @@ module.exports = [
     { "key": "0.002647", "value": "仁东控股", "marketT": "sz" },
     { "key": "1.601187", "value": "厦门银行", "marketT": "sh" },
     { "key": "1.600593", "value": "大连圣亚", "marketT": "sh" },
-    { "key": "0.300911", "value": "C亿田", "marketT": "sz" }
+    { "key": "0.300911", "value": "C亿田", "marketT": "sz" },
+    { "key": "1.605005", "value": "迎丰股份", "marketT": "sh" }
 ]
