@@ -1,0 +1,23 @@
+module.exports = [
+    {"key":"1.605358","value":"立昂微","marketT":"sh"},
+    {"key":"0.300223","value":"北京君正","marketT":"sz"},
+    {"key":"0.300458","value":"全志科技","marketT":"sz"},
+    {"key":"0.002073","value":"软控股份","marketT":"sz"},
+    {"key":"1.600733","value":"北汽蓝谷","marketT":"sh"},
+    {"key":"0.300373","value":"扬杰科技","marketT":"sz"},
+    {"key":"1.603986","value":"兆易创新","marketT":"sh"},
+    {"key":"0.002405","value":"四维图新","marketT":"sz"},
+    {"key":"1.603068","value":"博通集成","marketT":"sh"},
+    {"key":"0.002049","value":"紫光国微","marketT":"sz"},
+    {"key":"1.603160","value":"汇顶科技","marketT":"sh"},
+    {"key":"0.002151","value":"北斗星通","marketT":"sz"},
+    {"key":"1.600745","value":"闻泰科技","marketT":"sh"},
+    {"key":"0.300131","value":"英唐智控","marketT":"sz"},
+    {"key":"1.603005","value":"晶方科技","marketT":"sh"},
+    {"key":"0.300667","value":"必创科技","marketT":"sz"},
+    {"key":"1.600584","value":"长电科技","marketT":"sh"},
+    {"key":"1.603501","value":"韦尔股份","marketT":"sh"},
+    {"key":"1.605111","value":"新洁能","marketT":"sh"},
+    {"key":"1.688655","value":"迅捷兴","marketT":"sh"},
+    {"key":"1.688689","value":"银河微电","marketT":"sh"}
+]
