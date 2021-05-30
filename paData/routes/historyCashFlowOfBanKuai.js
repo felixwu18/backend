@@ -6,7 +6,7 @@ var download = require("../utils/http");
 module.exports = async function (req, res) {
     const secid1 = 'BK0972'
     const secid2 = 'BK0977'
-    const secid3 = 'BK0690'
+    const secid3 = 'BK0473'
     // requestData(secid1, res)
     // requestData(secid2, res)
     // requestData(secid3, res)
