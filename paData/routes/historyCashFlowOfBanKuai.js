@@ -4,13 +4,15 @@ var download = require("../utils/http");
 
 
 module.exports = async function (req, res) {
-    const secid1 = 'BK0972'
-    const secid2 = 'BK0977'
-    const secid3 = 'BK0473'
+    const secid1 = 'BK0908'
+    const secid2 = 'BK0481'
+    const secid3 = 'BK0428'
+    const secid4 = 'BK0953'
+    const secid5 = 'BK0478'
     // requestData(secid1, res)
     // requestData(secid2, res)
     // requestData(secid3, res)
-    Promise.all([requestData(secid1, res), requestData(secid2, res), requestData(secid3, res)])
+    Promise.all([requestData(secid1, res), requestData(secid2, res), requestData(secid3, res), requestData(secid4, res), requestData(secid5, res)])
       .then(resultList => {
         console.log('==> 板块历史资金流查询ok!');
         res.send(resultList)
