@@ -26,6 +26,7 @@ app.all("*", function (req, res, next) {
 // writeD()
 //  import路由
 var pagePaChongRoute = require("./routes/pachong/pagePC"); // 爬虫测试
+var pagePaChongRoute2 = require("./routes/pachong/pagePC2"); // 爬虫测试
 var setFileNamesRoute = require("./routes/setFileNames"); // 写入缓存分时回调
 var setCacheFSPRoute = require("./routes/setCacheFSP"); // 写入缓存分时回调
 var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回调
@@ -58,6 +59,7 @@ var FinanceTableDataRoute = require("./routes/FinanceTableData"); // 财务分�
 
 /* 测试爬虫 */
 app.get('/pagePaChong', pagePaChongRoute)
+app.get('/pagePaChong2', pagePaChongRoute2)
 
 app.post('/setCacheFSP', setCacheFSPRoute) // 接受前端分时数据写缓存
 app.get('/getCacheFSP', getCacheFSPRoute) // 获取缓存分时数据

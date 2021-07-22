@@ -19,6 +19,7 @@ module.exports = function (req, res, next) {
             var items = [];
             $('.discuss-main').each(function (idx, element) {
                 var $element = $(element);
+                console.log($element, '$element');
                 items.push({
                     title: $element.find('a').text(),
                     href: $element.find('a').attr('href'),
