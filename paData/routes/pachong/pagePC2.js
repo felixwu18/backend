@@ -7,10 +7,10 @@ const configsAllP = require('../../data/HSAFormat') // 沪深A 4250
 
 
 var cnodeUrl = 'http://data.10jqka.com.cn/financial/yjyg/'; // 牛客网
-// var cnodeUrl = 'http://data.10jqka.com.cn/ajax/yjyg/date/2021-06-30/board/ALL/field/enddate/order/desc/page/4/ajax/1/free/1/'; // 牛客网
+// var cnodeUrl = 'http://data.10jqka.com.cn/ajax/yjyg/date/2021-06-30/board/ALL/field/enddate/order/desc/page/3/ajax/1/free/1/'; // 牛客网
 
 module.exports = function (req, res, next) {
-    const writePath = `F:\\stock\\backend2\\paData\\data\\goodEarnings\\goodStock.js`; //生成目录文件
+    const writePath = `F:\\stock\\backend2\\paData\\data\\goodEarnings\\goodStock1.js`; //生成目录文件
     // 用 superagent 去抓取 https://www.nowcoder.com/discuss 的内容
     superagent
         .get(cnodeUrl)
