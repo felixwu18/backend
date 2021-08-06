@@ -55,6 +55,7 @@ var dzjLatestRoute = require("./routes/dzjLatest"); // 大资金持股情况
 var dzjSelectStockRoute = require("./routes/dzjSelectStock"); // 大资金持股选股
 var yearROERoute = require("./routes/yearROE"); // 年资产收益率 15%以上为优秀， 10%以上也不错
 var FinanceTableDataRoute = require("./routes/FinanceTableData"); // 财务分析数据 营业收入， 净利润等
+var brokerRatingRoute = require("./routes/brokerRating"); // 券商评级
 
 // ------------------ 接口  ----------------------//
 
@@ -129,6 +130,8 @@ app.get('/yearROE', yearROERoute)
 /*  15 财务数据(营业收入，净利润等)查询 */
 app.get('/FinanceTableData', FinanceTableDataRoute)
 
+/*  15 财务数据(营业收入，净利润等)查询 */
+app.get('/brokerRating', brokerRatingRoute)
 
 
 // ----------------   监听端口   ------------------//

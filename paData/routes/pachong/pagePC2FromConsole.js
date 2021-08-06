@@ -1,7 +1,7 @@
 /* latestP 缓存120天数据 */
 var fs = require("fs"); //文件模块
-// const configsAllP = require('../../data/HSAFormat'); // 沪深A 4250
-const configsAllP = require('../../data/goodEarnings/goodStock-100点2'); // 沪深A 4250
+const configsAllP = require('../../data/HSAFormat'); // 沪深A 4250
+// const configsAllP = require('../../data/goodEarnings/goodStock-100点2'); // 沪深A 4250
 
 module.exports = function (req, resp) {
     resp.send('lataetP写入开始中...！')
