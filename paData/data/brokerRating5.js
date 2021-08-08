@@ -1,0 +1,21 @@
+module.exports = [
+    {"key":"0.002064","value":"华峰氨纶","marketT":"sz","oneMonth":"4","twoMonthes":"4","threeMonthes":"8","sixMonthes":"17","oneYear":"33"},
+    {"key":"0.002714","value":"牧原股份","marketT":"sz","oneMonth":"1","twoMonthes":"2","threeMonthes":"4","sixMonthes":"20","oneYear":"31"},
+    {"key":"1.603444","value":"吉比特","marketT":"sh","oneMonth":"7","twoMonthes":"9","threeMonthes":"13","sixMonthes":"45","oneYear":"75"},
+    {"key":"0.002601","value":"龙蟒佰利","marketT":"sz","oneMonth":"4","twoMonthes":"9","threeMonthes":"11","sixMonthes":"25","oneYear":"42"},
+    {"key":"1.600104","value":"上汽集团","marketT":"sh","oneMonth":"4","twoMonthes":"9","threeMonthes":"15","sixMonthes":"36","oneYear":"104"},
+    {"key":"1.601668","value":"中国建筑","marketT":"sh","oneMonth":"3","twoMonthes":"3","threeMonthes":"3","sixMonthes":"12","oneYear":"37"},
+    {"key":"1.600066","value":"宇通客车","marketT":"sh","oneMonth":"1","twoMonthes":"3","threeMonthes":"6","sixMonthes":"24","oneYear":"61"},
+    {"key":"1.600036","value":"招商银行","marketT":"sh","oneMonth":"1","twoMonthes":"2","threeMonthes":"2","sixMonthes":"32","oneYear":"71"},
+    {"key":"0.002410","value":"广联达","marketT":"sz","oneMonth":"5","twoMonthes":"5","threeMonthes":"7","sixMonthes":"32","oneYear":"63"},
+    {"key":"0.002230","value":"科大讯飞","marketT":"sz","oneMonth":"14","twoMonthes":"21","threeMonthes":"24","sixMonthes":"44","oneYear":"77"},
+    {"key":"0.000977","value":"浪潮信息","marketT":"sz","oneMonth":"2","twoMonthes":"2","threeMonthes":"3","sixMonthes":"14","oneYear":"31"},
+    {"key":"1.600048","value":"保利地产","marketT":"sh","oneMonth":"6","twoMonthes":"7","threeMonthes":"7","sixMonthes":"26","oneYear":"72"},
+    {"key":"1.688012","value":"中微公司","marketT":"sh","oneMonth":"1","twoMonthes":"8","threeMonthes":"10","sixMonthes":"25","oneYear":"44"},
+    {"key":"1.688036","value":"传音控股","marketT":"sh","oneMonth":"1","twoMonthes":"10","threeMonthes":"11","sixMonthes":"24","oneYear":"41"},
+    {"key":"0.300285","value":"国瓷材料","marketT":"sz","oneMonth":"3","twoMonthes":"3","threeMonthes":"11","sixMonthes":"18","oneYear":"35"},
+    {"key":"1.600438","value":"通威股份","marketT":"sh","oneMonth":"1","twoMonthes":"10","threeMonthes":"11","sixMonthes":"38","oneYear":"76"},
+    {"key":"1.600741","value":"华域汽车","marketT":"sh","oneMonth":"1","twoMonthes":"1","threeMonthes":"1","sixMonthes":"15","oneYear":"37"},
+    {"key":"0.300888","value":"稳健医疗","marketT":"sz","oneMonth":"7","twoMonthes":"9","threeMonthes":"9","sixMonthes":"29","oneYear":"56"},
+    {"key":"0.000725","value":"京东方Ａ","marketT":"sz","oneMonth":"9","twoMonthes":"10","threeMonthes":"10","sixMonthes":"34","oneYear":"76"}
+]

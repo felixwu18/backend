@@ -13,7 +13,7 @@ module.exports = function selectFn(req, resp) {
    
     const finalSelects = []
     // const ttt = [{ key: '0.002594', value: '比亚迪', pym: 'byd', marketT: 'sz' }]
-    configsAllP.slice(3000, 4000).forEach((item, index) => {
+    configsAllP.slice(3500, 4250).forEach((item, index) => {
         // ttt.forEach((item, index) => {
         /*secid id   _ 更新最新数据*/
         console.log(`${item.key}--${item.value}--${index}`)
@@ -44,7 +44,7 @@ module.exports = function selectFn(req, resp) {
                 console.log(`${consditon}--finalSelects---${index}`)
                 /* 最后一个处理后 写入数据 */
                     setTimeout(() => {
-                        let writePath = 'F:\\stock\\backend2\\paData\\data\\brokerRating4.js'; //生成文件
+                        let writePath = 'F:\\stock\\backend2\\paData\\data\\brokerRating5.js'; //生成文件
                         const file = `module.exports = ${JSON.stringify(finalSelects)}`
                         fs.writeFile(writePath, file, function (err, m) {
                             console.log(err, finalSelects, '==>finalSelects写入数据')
