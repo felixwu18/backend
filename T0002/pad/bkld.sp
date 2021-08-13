@@ -1,6 +1,6 @@
 [DEAFULTGP]
 Name=板块联动
-GPSetCode_Code1=0_300982
+GPSetCode_Code1=0_000682
 GPSetCode_Code2=1_600801
 GPSetCode_Code3=1_600802
 GPSetCode_Code4=1_600803
@@ -35,9 +35,6 @@ RelType=0
 CTPGroupType=0
 AutoSize=0
 FixedSwitchMode=0
-PadHelpStr=
-HQGridNoCode=0
-crTipWord=0
 [STEP0]
 SplitWhich=-1
 UnitType=RMREPORT_UNIT
@@ -68,7 +65,7 @@ IsContrallUnit=0
 IsLocked=0
 Fixed_Width=670
 Fixed_Height=0
-InitShowNum=15
+InitShowNum=19
 WndNum=2
 FXPeriod=5
 Formula01=MA
@@ -97,9 +94,9 @@ IsLocked=0
 Fixed_Width=0
 Fixed_Height=0
 GPType=-1
-BlockFlag=1110
+BlockFlag=473
 ZAFMode=1
-ConceptBlockName=次新股
+ConceptBlockName=三网融合
 UnitStr=所有市场
 UnitDesc=
 UnitGlStr=
@@ -159,7 +156,6 @@ ZstUnitSwitch=0
 ZSTManyDay=1
 ManyDayZST=0
 ShowRefreshBtn=1
-ZBWinNum=0
 [Habit]
 CurBlockFlag1=0
 [STEP5]
