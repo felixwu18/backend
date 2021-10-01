@@ -126,4 +126,3 @@ function getLatestP({ secid, value }) {
                })
      }))
 }
-

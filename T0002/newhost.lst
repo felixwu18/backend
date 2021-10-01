@@ -1,5 +1,5 @@
 [HQHOST]
-HostNum=26
+HostNum=27
 
 HostName01=深圳双线主站1
 IPAddress01=120.79.60.82
@@ -104,6 +104,10 @@ Port25=7709
 HostName26=上海双线主站14
 IPAddress26=110.40.248.230
 Port26=7709
+
+HostName27=武汉电信主站1
+IPAddress27=119.97.185.59
+Port27=7709
 
 [DSHOST]
 HostNum=9
