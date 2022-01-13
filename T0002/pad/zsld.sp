@@ -1,9 +1,9 @@
 [DEAFULTGP]
 Name=指数联动
 ShowName=
-CmdNum=3
+CmdNum=4
 GPSetCode_Code1=0_399001
-GPSetCode_Code2=1_688148
+GPSetCode_Code2=0_301035
 GPSetCode_Code3=1_600802
 GPSetCode_Code4=1_600803
 GPSetCode_Code5=1_600804
@@ -64,6 +64,7 @@ LineSelMode=0
 GridNoSwitch=1
 GridPrivateCol=0
 ColString=
+MoreUnitDataInfo=
 [STEP1]
 SplitWhich=-2
 UnitStr=板块指数
@@ -89,6 +90,7 @@ LineSelMode=0
 GridNoSwitch=0
 GridPrivateCol=0
 ColString=
+MoreUnitDataInfo=
 [STEP2]
 SplitWhich=0
 UnitStr=分时图
@@ -165,6 +167,7 @@ LineSelMode=2
 GridNoSwitch=0
 GridPrivateCol=0
 ColString=
+MoreUnitDataInfo=
 [STEP5]
 SplitWhich=1
 UnitStr=分时图

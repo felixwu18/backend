@@ -10,7 +10,8 @@ module.exports = function (req, res) {
               if (currentItem.key) {
                   code = `${currentItem.key[2] === '6' ? 'SH' : 'SZ'}${(secid || '0.002594').slice(2)}`
               }
-              const service = 'http://f10.eastmoney.com/NewFinanceAnalysis/DubangAnalysisAjax'
+              const service = 'http://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/DBFXAjaxNew'
+            //   const service = 'http://f10.eastmoney.com/NewFinanceAnalysis/DubangAnalysisAjax'
               const urlParams = `code=${code}`
               // http://f10.eastmoney.com/NewFinanceAnalysis/DubangAnalysisAjax?code=SH601012
               const url = `${service}?${urlParams}`

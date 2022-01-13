@@ -1,5 +1,5 @@
 [HQHOST]
-HostNum=27
+HostNum=31
 
 HostName01=深圳双线主站1
 IPAddress01=120.79.60.82
@@ -109,8 +109,24 @@ HostName27=武汉电信主站1
 IPAddress27=119.97.185.59
 Port27=7709
 
+HostName28=深圳双线主站7
+IPAddress28=47.107.64.168
+Port28=7709
+
+HostName29=北京双线主站4
+IPAddress29=8.142.137.74
+Port29=7709
+
+HostName30=广州双线主站4
+IPAddress30=124.71.9.153
+Port30=7709
+
+HostName31=上海双线主站15
+IPAddress31=123.60.84.66
+Port31=7709
+
 [DSHOST]
-HostNum=9
+HostNum=11
 
 HostName01=扩展市场深圳双线1
 IPAddress01=112.74.214.43
@@ -147,3 +163,11 @@ Port08=7727
 HostName09=扩展市场上海双线2
 IPAddress09=47.102.108.214
 Port09=7727
+
+HostName10=扩展市场上海双线3
+IPAddress10=47.103.86.229
+Port10=7727
+
+HostName11=扩展市场上海双线4
+IPAddress11=47.103.88.146
+Port11=7727

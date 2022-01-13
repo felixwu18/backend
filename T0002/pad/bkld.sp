@@ -1,6 +1,6 @@
 [DEAFULTGP]
 Name=板块联动
-GPSetCode_Code1=0_000682
+GPSetCode_Code1=0_300501
 GPSetCode_Code2=1_600801
 GPSetCode_Code3=1_600802
 GPSetCode_Code4=1_600803
@@ -35,6 +35,10 @@ RelType=0
 CTPGroupType=0
 AutoSize=0
 FixedSwitchMode=0
+PadHelpStr=
+HasProcessBtn=0
+HQGridNoCode=0
+crTipWord=0
 [STEP0]
 SplitWhich=-1
 UnitType=RMREPORT_UNIT
@@ -111,6 +115,7 @@ GridPrivateCol=0
 ColString=
 ZSBlockName=腾讯济安
 FGBlockName=次新开板
+MoreUnitDataInfo=
 [STEP3]
 SplitWhich=1
 UnitType=HQ_UNIT
@@ -156,6 +161,7 @@ ZstUnitSwitch=0
 ZSTManyDay=1
 ManyDayZST=0
 ShowRefreshBtn=1
+ZBWinNum=0
 [Habit]
 CurBlockFlag1=0
 [STEP5]
