@@ -514,4 +514,10 @@ module.exports.configsP = [
     { "key": "0.002400", "value": "省广集团", "marketT": "sz" },
     { "key": "1.603983", "value": "丸美股份", "marketT": "sh" },
     { "key": "0.002980", "value": "华盛昌", "marketT": "sz" },
+    { "key": "1.603229", "value": "奥翔药业", "marketT": "sh" },
+    { "key": "1.603773", "value": "沃格光电", "marketT": "sh" },
+    { "key": "0.002244", "value": "滨江集团", "marketT": "sz" },
+    { "key": "1.605168", "value": "三人行", "marketT": "sh" },
+    { "key": "1.603357", "value": "设计总院", "marketT": "sh" },
+    { "key": "0.000810", "value": "创维数字", "marketT": "sz" },
 ]

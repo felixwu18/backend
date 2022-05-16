@@ -3,27 +3,27 @@ ADSTR1=
 ADSTR2=
 [URL]
 CompanyWebURL=http://www.tdx.com.cn/url/jump.asp?setcode=##SETCODE##&code=xxxxxx
-FreePopURL=http://www.tdx.com.cn/softad/freepop.htm?core=##mainexe_ver##
+FreePopURL=https://www.tdx.com.cn/softad/freepop.htm?core=##mainexe_ver##
 HKCenterURL=http://www.tdx.com.cn/url/hk/
 HKJyTimeURL=http://www.hkex.com.hk/chi/market/sec_tradinfo/tradcal/nont10_c.htm
 ZDLogoPopURL=
 LastestVer=7.58
 HKTLogoPopURL=
 LeadLogoPopURL=
-QuitInfoUrl=http://www.tdx.com.cn/softad/freepop_ex.htm?adpos=3&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
-QuitInfoUrl_Free=http://www.tdx.com.cn/softad/freepop_ex.htm?adpos=3&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
+QuitInfoUrl=https://www.tdx.com.cn/softad/freepop_ex.htm?adpos=3&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
+QuitInfoUrl_Free=https://www.tdx.com.cn/softad/freepop_ex.htm?adpos=3&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
 SwitchADStr=新用户福利专享
 SwitchADStr_Free=新用户福利专享
 SwitchADUrl=https://vip.tdx.com.cn/site/app/pc-mall/main.html#/shaky?advId=4&advDeId=377&advName=%E6%96%B0%E4%BA%BA%E7%A6%8F%E5%88%A9
 SwitchADUrl_Free=https://vip.tdx.com.cn/site/app/pc-mall/main.html#/shaky?advId=4&advDeId=377&advName=%E6%96%B0%E4%BA%BA%E7%A6%8F%E5%88%A9
 DownFinHQURL=abhq://calc2.tdx.com.cn:7709/
 DownFinHQURL2=abhq://calc.tdx.com.cn:7709/
-FreePopURL_QHT=http://www.tdx.com.cn/softad/freepop_qht.htm?core=##mainexe_ver##
-QuitInfoUrl_EXP=http://www.tdx.com.cn/softad/freepop_ex.htm?adpos=48&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
-QuitInfoUrl_HKT=http://www.tdx.com.cn/softad/freepop_ex.htm?adpos=50&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
-QuitInfoUrl_ITREND=http://www.tdx.com.cn/softad/freepop_ex.htm?adpos=47&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
-QuitInfoUrl_YJ=http://www.tdx.com.cn/softad/freepop_ex.htm?adpos=49&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
-QuitInfoUrl_ZY=http://www.tdx.com.cn/softad/freepop_ex.htm?adpos=46&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
+FreePopURL_QHT=https://www.tdx.com.cn/softad/freepop_qht.htm?core=##mainexe_ver##
+QuitInfoUrl_EXP=https://www.tdx.com.cn/softad/freepop_ex.htm?adpos=48&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
+QuitInfoUrl_HKT=https://www.tdx.com.cn/softad/freepop_ex.htm?adpos=50&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
+QuitInfoUrl_ITREND=https://www.tdx.com.cn/softad/freepop_ex.htm?adpos=47&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
+QuitInfoUrl_YJ=https://www.tdx.com.cn/softad/freepop_ex.htm?adpos=49&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
+QuitInfoUrl_ZY=https://www.tdx.com.cn/softad/freepop_ex.htm?adpos=46&core=##client_ver##&mac=##netcard##&tdxid=tdx_yhtid&uname=tdx_username
 SwitchADStr_EXP=
 SwitchADStr_HKT=
 SwitchADStr_ITREND=
@@ -36,7 +36,7 @@ SwitchADUrl_YJ=
 SwitchADUrl_ZY=
 FreeAutoupUrl=http://data.tdx.com.cn/autoup/tdxw3_level2_tcpip758.zip
 HQAreaADStr_Free=在买盘***位置有大买单,查看详情
-HQAreaADUrl_Free=https://vip.tdx.com.cn/site/app/pc-mall/main.html#/page_product_pj_cf?param=%7B%22categoryId%22%3A%224%22%7D
+HQAreaADUrl_Free=https://vip.tdx.com.cn/site/app/pc-mall/main.html#/page_product_pj_cf?param=%7B%22categoryId%22%3A%224%22%7D%3FadvId%3D2000&advName=%E5%8D%83%E6%A1%A3%E7%9B%98%E5%8F%A3%E4%BD%8D%E7%BD%AE%E5%B9%BF%E5%91%8A&advDeId=491
 [Mail]
 MailContent1=通达信个人版商城 http://vip.tdx.com.cn/site/app/level2/
 MailContent2=关注通达信微博 http://weibo.com/tongdaxin

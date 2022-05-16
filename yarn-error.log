@@ -1,0 +1,45 @@
+Arguments: 
+  C:\node\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemon -g
+
+PATH: 
+  C:\Users\lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lenovo\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Git\bash;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Users\lenovo\AppData\Roaming\nvm;C:\nvm;C:\node;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\nvm;C:\nvm;C:\Users\lenovo\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "body-parser": "^1.18.3",
+      "express": "^4.16.4",
+      "nodejs-websocket": "^1.7.2"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "bignumber": "^1.1.0",
+      "cheerio": "^1.0.0-rc.3",
+      "cookie-parser": "^1.4.3",
+      "https-proxy-agent": "^5.0.0",
+      "multer": "^1.4.1",
+      "mysql": "^2.18.1",
+      "qs": "^6.9.6",
+      "superagent": "^6.1.0",
+      "tunnel": "^0.0.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
