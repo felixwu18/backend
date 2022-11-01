@@ -1908,3 +1908,441 @@
 [2022-05-14/10:32:17.726][0000371C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BE2C55 ClusterID=300;初始过程断开
 [2022-05-14/10:32:35.913][00002CF4][ERR ][  2][SessionManager: 522]:JobError TDXSession=04BE6360;Client=04BE2A0C;pIJob=0D9E723A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
 [2022-05-14/10:59:02.867][00002CF4][ERR ][  2][SessionManager: 522]:JobError TDXSession=04BE6360;Client=04BE2A0C;pIJob=0D9E76FC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-17/20:51:48.718][00004BF0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DA66018;Client=0D86CBDD;pIJob=0D8A1BD0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-17/20:51:48.719][00004BF0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0D86CBDD ClusterID=300;初始过程断开
+[2022-05-17/20:52:13.969][00004590][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DA658F8;Client=0D86C994;pIJob=0D8A2092;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-17/21:39:40.460][00004BF0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DA66018;Client=0D86CBDD;pIJob=0D8A2554;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-17/21:39:40.460][00004BF0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0D86CBDD ClusterID=300;初始过程断开
+[2022-05-17/21:39:58.162][00004590][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DA658F8;Client=0D86C994;pIJob=0D8A2A16;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-18/09:19:11.855][00003F0C][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AE6248;Client=04C8966D;pIJob=078F9CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-18/09:19:11.857][00003F0C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04C8966D ClusterID=300;初始过程断开
+[2022-05-18/09:19:27.294][000020A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AE5B28;Client=04C89424;pIJob=078FA1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-20/22:56:05.072][000020C4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC082F0;Client=04B10CF5;pIJob=0DA23638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-20/22:56:05.074][000020C4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B10CF5 ClusterID=300;初始过程断开
+[2022-05-20/22:56:30.326][00002240][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC07BD0;Client=04B10AAC;pIJob=0DA23AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-20/23:32:33.914][000020C4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC082F0;Client=04B10CF5;pIJob=0DA23FBC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-20/23:32:33.914][000020C4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B10CF5 ClusterID=300;初始过程断开
+[2022-05-20/23:32:51.286][00002240][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC07BD0;Client=04B10AAC;pIJob=0DA2447E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-21/08:58:08.311][000044E8][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB40F8;Client=04BDB995;pIJob=078C9CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-21/08:58:08.314][000044E8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BDB995 ClusterID=300;初始过程断开
+[2022-05-21/08:58:24.937][00003D90][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB39D8;Client=04BDB74C;pIJob=078CA1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-21/09:41:11.975][000044E8][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB40F8;Client=04BDB995;pIJob=078CA66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-05-21/09:41:11.975][000044E8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BDB995 ClusterID=300;初始过程断开
+[2022-05-21/09:41:28.379][00003D90][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB39D8;Client=04BDB74C;pIJob=078CAB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-10/23:04:31.575][00000638][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DAF8040;Client=0DAA80FD;pIJob=0D922A08;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-10/23:04:31.576][00000638][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DAA80FD ClusterID=300;初始过程断开
+[2022-06-10/23:04:47.028][00002588][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DAF7AD0;Client=0DAA7EB4;pIJob=0D922ECA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-10/23:44:35.590][00000638][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DAF8040;Client=0DAA80FD;pIJob=0D92338C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-10/23:44:35.591][00000638][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DAA80FD ClusterID=300;初始过程断开
+[2022-06-10/23:44:51.617][00002588][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DAF7AD0;Client=0DAA7EB4;pIJob=0D92384E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/09:57:56.672][00003138][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AD3A10;Client=04B4B995;pIJob=078E50C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/09:57:56.672][00003138][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B4B995 ClusterID=300;初始过程断开
+[2022-06-19/09:58:14.726][00001E28][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AD32F0;Client=04B4B74C;pIJob=078E5582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/10:23:48.455][00001E28][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AD32F0;Client=04B4B74C;pIJob=078E5A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/12:03:43.081][00003138][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AD3A10;Client=04B4B995;pIJob=078E5F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/12:03:43.082][00003138][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B4B995 ClusterID=300;初始过程断开
+[2022-06-19/12:04:00.006][00001E28][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AD32F0;Client=04B4B74C;pIJob=078E63C8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/15:07:59.807][00003324][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E793AC0;Client=04B3FD1D;pIJob=0E5CDAA0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/15:07:59.807][00003324][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B3FD1D ClusterID=300;初始过程断开
+[2022-06-19/15:08:21.454][000009F4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E7933A0;Client=04B3FAD4;pIJob=0E5CDF62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/15:53:48.926][00003324][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E793AC0;Client=04B3FD1D;pIJob=0E5CE424;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-19/15:53:48.927][00003324][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B3FD1D ClusterID=300;初始过程断开
+[2022-06-19/15:54:05.676][000009F4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E7933A0;Client=04B3FAD4;pIJob=0E5CE8E6;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-28/12:43:37.982][00002134][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC28DC0;Client=0D8FAD6D;pIJob=0DA43638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-28/12:43:37.984][00002134][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0D8FAD6D ClusterID=300;初始过程断开
+[2022-06-28/12:43:56.066][00005228][ERR ][  2][SessionManager: 522]:JobError TDXSession=04C6E340;Client=0D8FAB24;pIJob=0DA43AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-29/18:56:15.121][00003C3C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD572F8;Client=0DA22D3D;pIJob=0DB83658;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-06-29/18:56:15.123][00003C3C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DA22D3D ClusterID=300;初始过程断开
+[2022-06-29/18:56:33.110][00005230][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD56BD8;Client=0DA22AF4;pIJob=0DB83B1A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-01/23:11:33.243][00001844][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DB26770;Client=04BF0675;pIJob=0D943638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-01/23:11:33.243][00001844][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BF0675 ClusterID=300;初始过程断开
+[2022-07-01/23:11:49.063][00003490][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DB26200;Client=04BF042C;pIJob=0D943AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-01/23:12:23.049][00003490][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DB26200;Client=04BF042C;pIJob=0D943FBC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-01/23:50:34.376][00001844][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DB26770;Client=04BF0675;pIJob=0D94447E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-01/23:50:34.377][00001844][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BF0675 ClusterID=300;初始过程断开
+[2022-07-01/23:50:50.396][00003490][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DB26200;Client=04BF042C;pIJob=0D944940;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-02/11:44:52.605][00002DE8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCA5070;Client=0DC56C55;pIJob=0DAD0A00;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-02/11:44:52.605][00002DE8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DC56C55 ClusterID=300;初始过程断开
+[2022-07-02/11:45:20.388][00002E00][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCA4950;Client=0DC56A0C;pIJob=0DAD0EC2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-02/12:28:14.654][00002DE8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCA5070;Client=0DC56C55;pIJob=0DAD1384;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-02/12:28:14.654][00002DE8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DC56C55 ClusterID=300;初始过程断开
+[2022-07-02/12:28:31.713][00002E00][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCA4950;Client=0DC56A0C;pIJob=0DAD1846;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-02/13:41:26.923][00002C58][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC56F98;Client=0DC07BC5;pIJob=0DA83658;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-02/13:41:26.923][00002C58][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DC07BC5 ClusterID=300;初始过程断开
+[2022-07-02/13:41:42.677][00000958][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC56878;Client=0DC0797C;pIJob=0DA83B1A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/00:10:47.449][0000195C][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB8D20;Client=04B7966D;pIJob=078D9CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/00:10:47.449][0000195C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B7966D ClusterID=300;初始过程断开
+[2022-07-03/00:11:05.680][000027B8][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB8600;Client=04B79424;pIJob=078DA1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/00:55:29.063][0000195C][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB8D20;Client=04B7966D;pIJob=078DA66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/00:55:29.064][0000195C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B7966D ClusterID=300;初始过程断开
+[2022-07-03/00:55:46.952][000027B8][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AB8600;Client=04B79424;pIJob=078DAB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/14:29:01.163][00001AEC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC96FF8;Client=0DA461B5;pIJob=0DACDAA0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/14:29:01.165][00001AEC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DA461B5 ClusterID=300;初始过程断开
+[2022-07-03/14:29:26.411][00003A0C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC968D8;Client=0DA45F6C;pIJob=0DACDF62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/15:10:36.092][00001AEC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC96FF8;Client=0DA461B5;pIJob=0DACE424;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-03/15:10:36.093][00001AEC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DA461B5 ClusterID=300;初始过程断开
+[2022-07-03/15:10:53.435][00003A0C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC968D8;Client=0DA45F6C;pIJob=0DACE8E6;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-05/00:33:47.564][000014D0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCE68B8;Client=0D9BBDCD;pIJob=0DAF90C8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-05/00:33:47.565][000014D0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0D9BBDCD ClusterID=300;初始过程断开
+[2022-07-05/00:34:04.325][00004834][ERR ][  2][SessionManager: 522]:JobError TDXSession=04BA6208;Client=0D9BBB84;pIJob=0DAF958A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-05/01:14:10.887][000014D0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCE68B8;Client=0D9BBDCD;pIJob=0DAF9A4C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-05/01:14:10.887][000014D0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0D9BBDCD ClusterID=300;初始过程断开
+[2022-07-05/01:14:31.705][00004834][ERR ][  2][SessionManager: 522]:JobError TDXSession=04BA6208;Client=0D9BBB84;pIJob=0DAF9F0E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-13/00:36:21.949][00001A14][ERR ][  2][SessionManager: 522]:JobError TDXSession=083F63B0;Client=0836F6CD;pIJob=0821CFA8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-13/00:36:21.950][00001A14][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0836F6CD ClusterID=300;初始过程断开
+[2022-07-13/00:36:41.092][00005A40][ERR ][  2][SessionManager: 522]:JobError TDXSession=083F5E40;Client=0836F484;pIJob=0821D46A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-13/01:11:24.677][00001A14][ERR ][  2][SessionManager: 522]:JobError TDXSession=083F63B0;Client=0836F6CD;pIJob=0821D92C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-13/01:11:24.677][00001A14][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0836F6CD ClusterID=300;初始过程断开
+[2022-07-13/01:11:41.007][00005A40][ERR ][  2][SessionManager: 522]:JobError TDXSession=083F5E40;Client=0836F484;pIJob=0821DDEE;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-16/16:29:29.417][0000044C][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AE1C70;Client=04BCB995;pIJob=078F50C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-16/16:29:29.417][0000044C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BCB995 ClusterID=300;初始过程断开
+[2022-07-16/16:29:45.346][000016C0][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AE1550;Client=04BCB74C;pIJob=078F5582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-16/16:58:24.317][000016C0][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AE1550;Client=04BCB74C;pIJob=078F5A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-16/17:23:09.814][0000044C][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AE1C70;Client=04BCB995;pIJob=078F5F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-16/17:23:09.815][0000044C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BCB995 ClusterID=300;初始过程断开
+[2022-07-16/17:23:26.370][000016C0][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AE1550;Client=04BCB74C;pIJob=078F63C8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-20/20:53:50.753][000031D0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC6B1A0;Client=0D93B685;pIJob=0DA8B9A0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-20/20:53:50.753][000031D0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0D93B685 ClusterID=300;初始过程断开
+[2022-07-20/20:54:23.866][00002604][ERR ][  2][SessionManager: 522]:JobError TDXSession=0D9DA288;Client=0D93B43C;pIJob=0DA8BE62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-20/21:15:36.638][00002F04][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD0C420;Client=0DCB7EC4;pIJob=0DB3C690;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-20/21:51:22.002][00002518][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD0CB40;Client=0DCB810D;pIJob=0DB3CB52;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-20/21:51:22.003][00002518][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DCB810D ClusterID=300;初始过程断开
+[2022-07-20/21:51:38.669][00002F04][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD0C420;Client=0DCB7EC4;pIJob=0DB3D014;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-24/12:32:08.072][00005DCC][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B02088;Client=07A8FC9D;pIJob=079150C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-24/12:32:08.074][00005DCC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07A8FC9D ClusterID=300;初始过程断开
+[2022-07-24/12:32:24.039][000041E8][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B01968;Client=07A8FA54;pIJob=07915582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-24/13:04:08.713][00005DCC][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B02088;Client=07A8FC9D;pIJob=07915A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-24/13:04:08.716][00005DCC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07A8FC9D ClusterID=300;初始过程断开
+[2022-07-24/13:04:25.842][000041E8][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B01968;Client=07A8FA54;pIJob=07915F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-25/09:29:23.512][000056B4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD189A8;Client=0DB16235;pIJob=0DB4DAA0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-25/09:29:23.513][000056B4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB16235 ClusterID=300;初始过程断开
+[2022-07-25/09:29:41.490][00002F1C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD18288;Client=0DB15FEC;pIJob=0DB4DF62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-25/09:30:02.345][00002F1C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD18288;Client=0DB15FEC;pIJob=0DB4E424;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-25/15:14:20.309][0000540C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD08868;Client=0D9DB645;pIJob=0DB26D78;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-25/15:14:20.310][0000540C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0D9DB645 ClusterID=300;初始过程断开
+[2022-07-25/15:14:42.669][000050E0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DA7A288;Client=0D9DB3FC;pIJob=0DB2723A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-26/01:34:08.845][00003804][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD07DB8;Client=0DB0624D;pIJob=0DB3DAA0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-26/01:34:08.846][00003804][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB0624D ClusterID=300;初始过程断开
+[2022-07-26/01:34:35.398][000023D8][ERR ][  2][SessionManager: 522]:JobError TDXSession=04BA5180;Client=0DB06004;pIJob=0DB3DF62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-26/02:16:27.574][00003804][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD07DB8;Client=0DB0624D;pIJob=0DB3E424;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-26/02:16:27.575][00003804][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB0624D ClusterID=300;初始过程断开
+[2022-07-26/02:16:44.009][000023D8][ERR ][  2][SessionManager: 522]:JobError TDXSession=04BA5180;Client=0DB06004;pIJob=0DB3E8E6;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-26/12:53:33.006][00000CF8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD06150;Client=0DB0CBB5;pIJob=0DB3C690;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-26/12:53:33.007][00000CF8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB0CBB5 ClusterID=300;初始过程断开
+[2022-07-26/12:53:50.101][00004108][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD05A30;Client=0DB0C96C;pIJob=0DB3CB52;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-26/13:20:14.920][00004108][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD05A30;Client=0DB0C96C;pIJob=0DB3D014;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-27/00:02:02.240][00004AC0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDE7280;Client=04BFCD5D;pIJob=0DC11E10;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-27/00:02:02.243][00004AC0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BFCD5D ClusterID=300;初始过程断开
+[2022-07-27/00:02:23.484][0000623C][ERR ][  1][SessionManager: 522]:JobError TDXSession=0DDE6D10;Client=04BFCB14;pIJob=0DC36DE8;ObjClsName=CTAJob_InetTQL,ErrType=1,ErrCode=64,ErrInfo=通讯错误或者客户机错误(1:64)。,FuncName=ACL.checkuser
+[2022-07-27/00:02:23.485][0000623C][ERR ][  1][SessionManager: 522]:JobError TDXSession=0DDE6D10;Client=04BFCB14;pIJob=0DC122D2;ObjClsName=CTAJob_Closed,ErrType=1,ErrCode=64,ErrInfo=通讯错误或者客户机错误(1:64)。,FuncName=
+[2022-07-27/00:06:02.318][0000623C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDE6D10;Client=04BFCB14;pIJob=0DC12794;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-27/14:46:53.962][00003EA0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD568B8;Client=0DD0838D;pIJob=0DB82E18;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-27/14:46:53.966][00003EA0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DD0838D ClusterID=300;初始过程断开
+[2022-07-27/14:47:21.587][000008DC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD4D298;Client=0DD08144;pIJob=0DB832DA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-27/18:09:04.342][00003EA0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD568B8;Client=0DD0838D;pIJob=0DB8379C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-27/18:09:04.342][00003EA0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DD0838D ClusterID=300;初始过程断开
+[2022-07-27/18:09:21.677][000008DC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD4D298;Client=0DD08144;pIJob=0DB83C5E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-31/13:31:44.141][00002BC0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD09338;Client=0DC95E35;pIJob=0DAF7A70;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-31/13:31:44.142][00002BC0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DC95E35 ClusterID=300;初始过程断开
+[2022-07-31/13:32:12.394][00001D04][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DA45DE8;Client=0DC95BEC;pIJob=0DAF7F32;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-31/14:01:34.678][00001D04][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DA45DE8;Client=0DC95BEC;pIJob=0DAF83F4;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-31/16:22:08.408][000037A0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD86970;Client=0DB861DD;pIJob=0DBBDAA0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-31/16:22:08.409][000037A0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB861DD ClusterID=300;初始过程断开
+[2022-07-31/16:22:32.123][00003A70][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD86250;Client=0DB85F94;pIJob=0DBBDF62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-31/17:57:18.764][00003A70][ERR ][  7][SessionManager: 522]:JobError TDXSession=0DD86250;Client=0DB85F94;pIJob=0DBC9F02;ObjClsName=CTAJob_OpenEx,ErrType=7,ErrCode=10009,ErrInfo=网络故障,连接主站失败(NE),FuncName=
+[2022-07-31/17:57:22.131][000037A0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD86970;Client=0DB861DD;pIJob=0DBBE424;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-07-31/17:57:22.131][000037A0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB861DD ClusterID=300;初始过程断开
+[2022-07-31/17:57:37.357][00003A70][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD86250;Client=0DB85F94;pIJob=0DBBE8E6;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-08/23:40:14.251][00002460][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC778A0;Client=0DBFF87D;pIJob=0DAA3658;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-08/23:40:14.252][00002460][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DBFF87D ClusterID=300;初始过程断开
+[2022-08-08/23:40:33.054][00003DF8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0D9B6950;Client=0DBFF634;pIJob=0DAA3B1A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-11/22:56:02.608][00000614][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE66BB8;Client=0DB39DC5;pIJob=0DC750C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-11/22:56:02.608][00000614][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB39DC5 ClusterID=300;初始过程断开
+[2022-08-11/22:56:20.850][00003B34][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE66498;Client=0DB39B7C;pIJob=0DC75582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-11/23:24:23.637][00003B34][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE66498;Client=0DB39B7C;pIJob=0DC75A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-12/16:10:17.568][000022D4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD053E8;Client=0DB0CBB5;pIJob=0DB3C690;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-12/16:10:17.570][000022D4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB0CBB5 ClusterID=300;初始过程断开
+[2022-08-12/16:10:42.392][00003FE4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD04CC8;Client=0DB0C96C;pIJob=0DB3CB52;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-15/23:58:18.197][000026C4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD8B838;Client=0DA5B685;pIJob=0DBAB9A0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-15/23:58:18.197][000026C4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DA5B685 ClusterID=300;初始过程断开
+[2022-08-15/23:58:43.369][0000129C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD8B2C8;Client=0DA5B43C;pIJob=0DBABE62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-16/00:25:00.422][0000129C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD8B2C8;Client=0DA5B43C;pIJob=0DBAC324;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-17/22:59:57.684][00001814][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AF1E40;Client=04C3B995;pIJob=079050C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-17/22:59:57.686][00001814][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04C3B995 ClusterID=300;初始过程断开
+[2022-08-17/23:00:25.006][00000908][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AF1720;Client=04C3B74C;pIJob=07905582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-17/23:31:30.094][00001814][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AF1E40;Client=04C3B995;pIJob=07905A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-17/23:31:30.094][00001814][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04C3B995 ClusterID=300;初始过程断开
+[2022-08-17/23:31:47.005][00000908][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AF1720;Client=04C3B74C;pIJob=07905F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/10:04:42.751][00004988][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AC3068;Client=04B79645;pIJob=078D9CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/10:04:42.753][00004988][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B79645 ClusterID=300;初始过程断开
+[2022-08-18/10:05:00.865][000041F0][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AC2948;Client=04B793FC;pIJob=078DA1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/10:05:54.043][000041F0][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AC2948;Client=04B793FC;pIJob=078DA66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/10:47:27.069][00004988][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AC3068;Client=04B79645;pIJob=078DAB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/10:47:27.069][00004988][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B79645 ClusterID=300;初始过程断开
+[2022-08-18/10:47:42.330][000041F0][ERR ][  2][SessionManager: 522]:JobError TDXSession=07AC2948;Client=04B793FC;pIJob=078DAFF0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/22:09:19.523][000043EC][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B41968;Client=04CF966D;pIJob=07959CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/22:09:19.526][000043EC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04CF966D ClusterID=300;初始过程断开
+[2022-08-18/22:09:37.400][00003F04][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B41248;Client=04CF9424;pIJob=0795A1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/22:58:52.805][000043EC][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B41968;Client=04CF966D;pIJob=0795A66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-18/22:58:52.805][000043EC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04CF966D ClusterID=300;初始过程断开
+[2022-08-18/22:59:09.588][00003F04][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B41248;Client=04CF9424;pIJob=0795AB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-20/16:54:24.888][00007270][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC58600;Client=0DC4423D;pIJob=0DAC9CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-20/16:54:24.890][00007270][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DC4423D ClusterID=300;初始过程断开
+[2022-08-20/16:54:34.185][00003B58][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC57EE0;Client=0DC43FF4;pIJob=0DACA1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-20/17:28:01.045][00007270][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC58600;Client=0DC4423D;pIJob=0DACA66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-20/17:28:01.045][00007270][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DC4423D ClusterID=300;初始过程断开
+[2022-08-20/17:28:09.068][00003B58][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC57EE0;Client=0DC43FF4;pIJob=0DACAB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-21/00:27:55.218][00007B6C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE98358;Client=0DB6B645;pIJob=0DCB6D78;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-21/00:27:55.220][00007B6C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DB6B645 ClusterID=300;初始过程断开
+[2022-08-21/00:28:11.050][00006FC4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE97DE8;Client=0DB6B3FC;pIJob=0DCB723A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-21/12:31:31.970][00007BEC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDE79E8;Client=04B8D19D;pIJob=0DC11E10;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-21/12:31:31.973][00007BEC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B8D19D ClusterID=300;初始过程断开
+[2022-08-21/12:31:55.044][000076B0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDE72C8;Client=04B8CF54;pIJob=0DC122D2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-21/13:01:35.522][00007BEC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDE79E8;Client=04B8D19D;pIJob=0DC12794;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-21/13:01:35.522][00007BEC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04B8D19D ClusterID=300;初始过程断开
+[2022-08-21/13:01:52.363][000076B0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDE72C8;Client=04B8CF54;pIJob=0DC12C56;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/16:17:28.660][00001F40][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCB8BE0;Client=04BC079D;pIJob=0DAF5310;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/16:17:28.660][00001F40][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BC079D ClusterID=300;初始过程断开
+[2022-08-22/16:17:57.171][00001F98][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCB84C0;Client=04BC0554;pIJob=0DAF57D2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/16:51:30.605][00001F40][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCB8BE0;Client=04BC079D;pIJob=0DAF5C94;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/16:51:30.605][00001F40][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04BC079D ClusterID=300;初始过程断开
+[2022-08-22/16:51:48.536][00001F98][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCB84C0;Client=04BC0554;pIJob=0DAF6156;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/19:30:13.387][00000BB4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE07FB0;Client=0DADA595;pIJob=0DC23638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/19:30:13.387][00000BB4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DADA595 ClusterID=300;初始过程断开
+[2022-08-22/19:30:35.318][000018CC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE07A40;Client=0DADA34C;pIJob=0DC23AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/20:12:30.143][00000BB4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE07FB0;Client=0DADA595;pIJob=0DC23FBC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-22/20:12:30.144][00000BB4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DADA595 ClusterID=300;初始过程断开
+[2022-08-22/20:12:47.649][000018CC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DE07A40;Client=0DADA34C;pIJob=0DC2447E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-23/02:28:17.869][00003070][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD99590;Client=0DD468AD;pIJob=0DBC3658;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-23/02:28:17.870][00003070][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DD468AD ClusterID=300;初始过程断开
+[2022-08-23/02:28:35.558][00001E1C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DD98E70;Client=0DD46664;pIJob=0DBC3B1A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-23/18:30:42.738][00001DC8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E204B90;Client=0E1B7F7D;pIJob=0E030A00;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-23/18:30:42.739][00001DC8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E1B7F7D ClusterID=300;初始过程断开
+[2022-08-23/18:31:00.390][00002584][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E1FBBB0;Client=0E1B7D34;pIJob=0E030EC2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-23/19:05:56.096][00001DC8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E204B90;Client=0E1B7F7D;pIJob=0E031384;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-23/19:05:56.097][00001DC8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E1B7F7D ClusterID=300;初始过程断开
+[2022-08-23/19:06:14.069][00002584][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E1FBBB0;Client=0E1B7D34;pIJob=0E031846;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-25/21:04:14.187][00003AD4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E358AF8;Client=0E014965;pIJob=0E191BD0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-25/21:04:14.188][00003AD4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E014965 ClusterID=300;初始过程断开
+[2022-08-25/21:04:39.109][00004B1C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3583D8;Client=0E01471C;pIJob=0E192092;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-25/21:40:13.991][00003AD4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E358AF8;Client=0E014965;pIJob=0E192554;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-25/21:40:13.991][00003AD4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E014965 ClusterID=300;初始过程断开
+[2022-08-25/21:40:32.675][00004B1C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3583D8;Client=0E01471C;pIJob=0E192A16;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-26/14:00:08.519][00004704][ERR ][  2][SessionManager: 522]:JobError TDXSession=06054110;Client=051FB96D;pIJob=05E650C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-26/14:00:08.520][00004704][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=051FB96D ClusterID=300;初始过程断开
+[2022-08-26/14:00:33.069][00004F64][ERR ][  2][SessionManager: 522]:JobError TDXSession=06053BA0;Client=051FB724;pIJob=05E65582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-26/14:27:15.033][00004F64][ERR ][  2][SessionManager: 522]:JobError TDXSession=06053BA0;Client=051FB724;pIJob=05E65A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-28/14:05:35.247][000034A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=08263428;Client=07ECB6B5;pIJob=08082100;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-28/14:05:35.248][000034A4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07ECB6B5 ClusterID=300;初始过程断开
+[2022-08-28/14:05:51.056][00003860][ERR ][  2][SessionManager: 522]:JobError TDXSession=08262D08;Client=07ECB46C;pIJob=080825C2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-28/14:45:40.957][000034A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=08263428;Client=07ECB6B5;pIJob=08082A84;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-28/14:45:40.959][000034A4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07ECB6B5 ClusterID=300;初始过程断开
+[2022-08-28/14:45:58.007][00003860][ERR ][  2][SessionManager: 522]:JobError TDXSession=08262D08;Client=07ECB46C;pIJob=08082F46;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-31/00:08:57.593][00003CA0][ERR ][  2][SessionManager: 522]:JobError TDXSession=08263180;Client=0541B995;pIJob=080750C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-31/00:08:57.595][00003CA0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0541B995 ClusterID=300;初始过程断开
+[2022-08-31/00:09:23.905][000043B4][ERR ][  2][SessionManager: 522]:JobError TDXSession=08262C10;Client=0541B74C;pIJob=08075582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-31/00:55:27.756][00003CA0][ERR ][  2][SessionManager: 522]:JobError TDXSession=08263180;Client=0541B995;pIJob=08075A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-08-31/00:55:27.756][00003CA0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0541B995 ClusterID=300;初始过程断开
+[2022-08-31/00:55:45.619][000043B4][ERR ][  2][SessionManager: 522]:JobError TDXSession=08262C10;Client=0541B74C;pIJob=08075F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/00:28:50.449][00002E18][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E38A028;Client=0E337EB5;pIJob=0E1B3658;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/00:28:50.450][00002E18][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E337EB5 ClusterID=300;初始过程断开
+[2022-09-01/00:29:14.091][00003C14][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E389AB8;Client=0E337C6C;pIJob=0E1B3B1A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/01:57:23.346][00002E18][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E38A028;Client=0E337EB5;pIJob=0E1B3FDC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/01:57:23.346][00002E18][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E337EB5 ClusterID=300;初始过程断开
+[2022-09-01/01:57:41.325][00003C14][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E389AB8;Client=0E337C6C;pIJob=0E1B449E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/11:17:22.010][00003948][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B65018;Client=04CD9645;pIJob=07979CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/11:17:22.012][00003948][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04CD9645 ClusterID=300;初始过程断开
+[2022-09-01/11:17:45.365][000025A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B64AA8;Client=04CD93FC;pIJob=0797A1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/11:19:08.099][000025A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B64AA8;Client=04CD93FC;pIJob=0797A66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/11:49:20.338][00003948][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B65018;Client=04CD9645;pIJob=0797AB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/11:49:20.339][00003948][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04CD9645 ClusterID=300;初始过程断开
+[2022-09-01/11:49:36.070][000025A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=07B64AA8;Client=04CD93FC;pIJob=0797AFF0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/13:02:57.883][000016E4][ERR ][  2][SessionManager: 522]:JobError TDXSession=04613EA0;Client=045C7DF5;pIJob=04432A18;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-01/13:02:57.884][000016E4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=045C7DF5 ClusterID=300;初始过程断开
+[2022-09-01/13:03:15.099][000043EC][ERR ][  2][SessionManager: 522]:JobError TDXSession=04613780;Client=045C7BAC;pIJob=04432EDA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-03/13:20:59.152][00002238][ERR ][  2][SessionManager: 522]:JobError TDXSession=08125490;Client=0523B95D;pIJob=07F350C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-03/13:20:59.153][00002238][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0523B95D ClusterID=300;初始过程断开
+[2022-09-03/13:21:17.892][00001DF4][ERR ][  2][SessionManager: 522]:JobError TDXSession=08124D70;Client=0523B714;pIJob=07F35582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-03/13:56:07.020][00002238][ERR ][  2][SessionManager: 522]:JobError TDXSession=08125490;Client=0523B95D;pIJob=07F35A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-03/13:56:07.020][00002238][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0523B95D ClusterID=300;初始过程断开
+[2022-09-03/13:56:26.060][00001DF4][ERR ][  2][SessionManager: 522]:JobError TDXSession=08124D70;Client=0523B714;pIJob=07F35F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-05/10:30:06.452][00003EC8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E365158;Client=0E03B685;pIJob=0E18B9A0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-05/10:30:06.453][00003EC8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E03B685 ClusterID=300;初始过程断开
+[2022-09-05/10:30:33.021][000035F4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E35BAB8;Client=0E03B43C;pIJob=0E18BE62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/07:20:33.947][00005328][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2BB130;Client=052DFFD5;pIJob=0E0E8280;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/07:20:33.947][00005328][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=052DFFD5 ClusterID=300;初始过程断开
+[2022-09-13/07:21:01.043][0000435C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2BABC0;Client=052DFD8C;pIJob=0E0E8742;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/07:48:07.098][0000435C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2BABC0;Client=052DFD8C;pIJob=0E0E8C04;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/09:17:25.320][000018F8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2F9BF0;Client=0DFC9D95;pIJob=0E1050C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/09:17:25.320][000018F8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DFC9D95 ClusterID=300;初始过程断开
+[2022-09-13/09:17:41.006][000078CC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2F9680;Client=0DFC9B4C;pIJob=0E105582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/09:31:19.592][00004844][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E383A98;Client=0E18C99C;pIJob=0E1BC690;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/12:32:24.386][0000141C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E8E5438;Client=0526061D;pIJob=0E703638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/12:32:24.387][0000141C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0526061D ClusterID=300;初始过程断开
+[2022-09-13/12:32:48.828][00006850][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E8E4D18;Client=052603D4;pIJob=0E703AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/20:59:40.516][00004350][ERR ][  2][SessionManager: 522]:JobError TDXSession=081D1AF0;Client=0515966D;pIJob=07FE9CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/20:59:40.517][00004350][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0515966D ClusterID=300;初始过程断开
+[2022-09-13/21:00:05.583][00003FD0][ERR ][  2][SessionManager: 522]:JobError TDXSession=081D13D0;Client=05159424;pIJob=07FEA1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/21:47:20.445][00004350][ERR ][  2][SessionManager: 522]:JobError TDXSession=081D1AF0;Client=0515966D;pIJob=07FEA66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-13/21:47:20.445][00004350][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0515966D ClusterID=300;初始过程断开
+[2022-09-13/21:47:38.427][00003FD0][ERR ][  2][SessionManager: 522]:JobError TDXSession=081D13D0;Client=05159424;pIJob=07FEAB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-14/09:24:08.892][00002078][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E204060;Client=0DE9FA1D;pIJob=0E041BD0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-14/09:24:08.892][00002078][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DE9FA1D ClusterID=300;初始过程断开
+[2022-09-14/09:24:24.350][000041E0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E203AF0;Client=0DE9F7D4;pIJob=0E042092;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-14/11:23:28.089][00003FAC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E5168A8;Client=0E31BC95;pIJob=0E3250C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-14/11:23:28.090][00003FAC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E31BC95 ClusterID=300;初始过程断开
+[2022-09-14/11:23:44.355][00003600][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E516338;Client=0E31BA4C;pIJob=0E325582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-14/12:05:05.011][00003FAC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E5168A8;Client=0E31BC95;pIJob=0E325A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-14/12:05:05.011][00003FAC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E31BC95 ClusterID=300;初始过程断开
+[2022-09-14/12:05:21.009][00003600][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E516338;Client=0E31BA4C;pIJob=0E325F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-16/00:25:34.548][00004FF4][ERR ][  2][SessionManager: 522]:JobError TDXSession=081638E8;Client=07DCB6B5;pIJob=07F84108;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-16/00:25:34.548][00004FF4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07DCB6B5 ClusterID=300;初始过程断开
+[2022-09-16/00:26:01.123][00004B94][ERR ][  2][SessionManager: 522]:JobError TDXSession=081631C8;Client=07DCB46C;pIJob=07F845CA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-16/01:13:57.685][00004FF4][ERR ][  2][SessionManager: 522]:JobError TDXSession=081638E8;Client=07DCB6B5;pIJob=07F84A8C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-16/01:13:57.685][00004FF4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07DCB6B5 ClusterID=300;初始过程断开
+[2022-09-16/01:14:15.507][00004B94][ERR ][  2][SessionManager: 522]:JobError TDXSession=081631C8;Client=07DCB46C;pIJob=07F84F4E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-17/22:10:34.949][000017B0][ERR ][  2][SessionManager: 522]:JobError TDXSession=081149C0;Client=0523B995;pIJob=07F29CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-17/22:10:34.949][000017B0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0523B995 ClusterID=300;初始过程断开
+[2022-09-17/22:10:53.099][00001CC0][ERR ][  2][SessionManager: 522]:JobError TDXSession=081142A0;Client=0523B74C;pIJob=07F2A1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-17/22:59:51.216][000017B0][ERR ][  2][SessionManager: 522]:JobError TDXSession=081149C0;Client=0523B995;pIJob=07F2A66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-17/22:59:51.216][000017B0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0523B995 ClusterID=300;初始过程断开
+[2022-09-17/23:00:07.736][00001CC0][ERR ][  2][SessionManager: 522]:JobError TDXSession=081142A0;Client=0523B74C;pIJob=07F2AB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-25/20:09:57.297][000025FC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E33E920;Client=051A4C95;pIJob=0E16CFA8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-25/20:09:57.297][000025FC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=051A4C95 ClusterID=300;初始过程断开
+[2022-09-25/20:10:12.323][0000114C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E33E3B0;Client=051A4A4C;pIJob=0E16D46A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-25/20:35:54.567][0000114C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E33E3B0;Client=051A4A4C;pIJob=0E16D92C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-25/20:47:32.364][000025FC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E33E920;Client=051A4C95;pIJob=0E16DDEE;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-25/20:47:32.364][000025FC][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=051A4C95 ClusterID=300;初始过程断开
+[2022-09-25/20:47:49.365][0000114C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E33E3B0;Client=051A4A4C;pIJob=0E16E2B0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/01:01:47.309][000047D4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E214920;Client=0E1C7F7D;pIJob=0E040A00;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/01:01:47.309][000047D4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E1C7F7D ClusterID=300;初始过程断开
+[2022-09-29/01:02:05.165][0000526C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DEB3958;Client=0E1C7D34;pIJob=0E040EC2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/01:15:36.073][00004608][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2E6058;Client=05230B4C;pIJob=0E103638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/01:40:52.359][000052D8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2E6778;Client=05230D95;pIJob=0E103AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/01:40:52.359][000052D8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05230D95 ClusterID=300;初始过程断开
+[2022-09-29/01:41:10.350][00004608][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E2E6058;Client=05230B4C;pIJob=0E103FBC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/22:48:57.132][000022A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCF4F00;Client=0DCA7EB5;pIJob=0DB23658;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/22:48:57.132][000022A4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DCA7EB5 ClusterID=300;初始过程断开
+[2022-09-29/22:49:22.771][000033F8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCEA8F8;Client=0DCA7C6C;pIJob=0DB23B1A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/23:19:49.526][000022A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCF4F00;Client=0DCA7EB5;pIJob=0DB23FDC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-29/23:19:49.526][000022A4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DCA7EB5 ClusterID=300;初始过程断开
+[2022-09-29/23:20:06.343][000033F8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DCEA8F8;Client=0DCA7C6C;pIJob=0DB2449E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-30/00:45:22.454][00001920][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3654E8;Client=05170FB5;pIJob=0E183638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-09-30/00:45:22.454][00001920][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05170FB5 ClusterID=300;初始过程断开
+[2022-09-30/00:45:40.910][00004F68][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E364DC8;Client=05170D6C;pIJob=0E183AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-01/21:26:03.780][00003F50][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E345E28;Client=05300FB5;pIJob=0E163638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-01/21:26:03.780][00003F50][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05300FB5 ClusterID=300;初始过程断开
+[2022-10-01/21:26:30.919][00005124][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3458B8;Client=05300D6C;pIJob=0E163AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-01/21:56:54.216][00003F50][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E345E28;Client=05300FB5;pIJob=0E163FBC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-01/21:56:54.217][00003F50][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05300FB5 ClusterID=300;初始过程断开
+[2022-10-01/21:57:11.002][00005124][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3458B8;Client=05300D6C;pIJob=0E16447E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-02/02:01:13.885][000004F8][ERR ][  2][SessionManager: 522]:JobError TDXSession=080E3F18;Client=07D4B6B5;pIJob=07F02100;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-02/02:01:13.885][000004F8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07D4B6B5 ClusterID=300;初始过程断开
+[2022-10-02/02:01:16.417][00000E28][ERR ][  7][SessionManager: 522]:JobError TDXSession=080E37F8;Client=07D4B46C;pIJob=07F0C4BE;ObjClsName=CTAJob_OpenEx,ErrType=7,ErrCode=10009,ErrInfo=网络故障,连接主站失败(NE),FuncName=
+[2022-10-02/02:01:41.642][00000E28][ERR ][  2][SessionManager: 522]:JobError TDXSession=080E37F8;Client=07D4B46C;pIJob=07F025C2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-03/13:45:37.675][0000389C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E451718;Client=05207A65;pIJob=0E291BD0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-03/13:45:37.675][0000389C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05207A65 ClusterID=300;初始过程断开
+[2022-10-03/13:45:55.729][00002A70][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E450FF8;Client=0520781C;pIJob=0E292092;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-03/14:21:52.320][0000389C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E451718;Client=05207A65;pIJob=0E292554;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-03/14:21:52.320][0000389C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05207A65 ClusterID=300;初始过程断开
+[2022-10-03/14:22:08.798][00002A70][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E450FF8;Client=0520781C;pIJob=0E292A16;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/08:31:25.802][0000062C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E369008;Client=0E15AA8D;pIJob=0E1AD7A8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/08:31:25.802][0000062C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E15AA8D ClusterID=300;初始过程断开
+[2022-10-04/08:31:41.010][00004AC0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3688E8;Client=0E15A844;pIJob=0E1ADC6A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/08:46:00.458][00001C40][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E39C268;Client=0524DAE4;pIJob=0E012CD0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/08:46:40.950][00001C40][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E39C268;Client=0524DAE4;pIJob=0E013192;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/08:47:11.602][00001C40][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E39C268;Client=0524DAE4;pIJob=0E013654;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/09:21:59.701][00002F60][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E39C988;Client=0524DD2D;pIJob=0E013B16;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/09:21:59.703][00002F60][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0524DD2D ClusterID=300;初始过程断开
+[2022-10-04/09:22:16.051][00001C40][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E39C268;Client=0524DAE4;pIJob=0E013FD8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/10:09:56.948][00002F60][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E39C988;Client=0524DD2D;pIJob=0E01449A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-04/10:09:56.948][00002F60][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0524DD2D ClusterID=300;初始过程断开
+[2022-10-04/10:10:13.032][00001C40][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E39C268;Client=0524DAE4;pIJob=0E01495C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-08/00:37:56.191][00002120][ERR ][  2][SessionManager: 522]:JobError TDXSession=080F3868;Client=07D5B6B5;pIJob=07F14108;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-08/00:37:56.191][00002120][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=07D5B6B5 ClusterID=300;初始过程断开
+[2022-10-08/00:38:22.631][00000700][ERR ][  2][SessionManager: 522]:JobError TDXSession=080F3148;Client=07D5B46C;pIJob=07F145CA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-09/11:52:28.690][000018B4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E83AD20;Client=0E27CC35;pIJob=0E6823D0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-09/11:52:28.693][000018B4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E27CC35 ClusterID=300;初始过程断开
+[2022-10-09/11:52:47.089][00002370][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E83A600;Client=0E27C9EC;pIJob=0E682892;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-09/12:21:19.041][00002370][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E83A600;Client=0E27C9EC;pIJob=0E682D54;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-10/22:39:46.292][00005658][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E43BC50;Client=04CB061D;pIJob=0E263638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-10/22:39:46.293][00005658][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04CB061D ClusterID=300;初始过程断开
+[2022-10-10/22:40:13.898][00003574][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E43B530;Client=04CB03D4;pIJob=0E263AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-10/23:20:58.834][00005658][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E43BC50;Client=04CB061D;pIJob=0E263FBC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-10/23:20:58.834][00005658][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04CB061D ClusterID=300;初始过程断开
+[2022-10-10/23:21:14.450][00003574][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E43B530;Client=04CB03D4;pIJob=0E26447E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-12/23:49:22.988][000013F4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E408DD8;Client=0E3B7EB5;pIJob=0E233658;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-12/23:49:22.990][000013F4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E3B7EB5 ClusterID=300;初始过程断开
+[2022-10-12/23:49:50.391][00003F0C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E4086B8;Client=0E3B7C6C;pIJob=0E233B1A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-13/00:32:20.052][000013F4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E408DD8;Client=0E3B7EB5;pIJob=0E233FDC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-13/00:32:20.052][000013F4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E3B7EB5 ClusterID=300;初始过程断开
+[2022-10-13/00:32:36.822][00003F0C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E4086B8;Client=0E3B7C6C;pIJob=0E23449E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-13/21:54:26.963][000019B4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC839E8;Client=04C87E8D;pIJob=0DAB0A00;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-13/21:54:26.963][000019B4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=04C87E8D ClusterID=300;初始过程断开
+[2022-10-13/21:54:44.068][000023E0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC83478;Client=04C87C44;pIJob=0DAB0EC2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-13/22:20:42.398][000023E0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DC83478;Client=04C87C44;pIJob=0DAB1384;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-14/22:28:42.264][00003D04][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDA6FF8;Client=0DBA61B5;pIJob=0DBDDAA0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-14/22:28:42.265][00003D04][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0DBA61B5 ClusterID=300;初始过程断开
+[2022-10-14/22:29:01.045][00004170][ERR ][  2][SessionManager: 522]:JobError TDXSession=0DDA68D8;Client=0DBA5F6C;pIJob=0DBDDF62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-15/19:04:27.219][000026D0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E455328;Client=05200515;pIJob=0E273638;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-15/19:04:27.221][000026D0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05200515 ClusterID=300;初始过程断开
+[2022-10-15/19:04:53.356][00002368][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E4545B0;Client=052002CC;pIJob=0E273AFA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-15/19:42:01.735][000026D0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E455328;Client=05200515;pIJob=0E273FBC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-15/19:42:01.735][000026D0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05200515 ClusterID=300;初始过程断开
+[2022-10-15/19:42:18.028][00002368][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E4545B0;Client=052002CC;pIJob=0E27447E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-16/07:03:18.809][00002D3C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3A5460;Client=052C3E05;pIJob=0E1DDAA0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-16/07:03:18.811][00002D3C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=052C3E05 ClusterID=300;初始过程断开
+[2022-10-16/07:03:45.039][0000466C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3A4518;Client=052C3BBC;pIJob=0E1DDF62;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-16/07:33:02.665][0000466C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3A4518;Client=052C3BBC;pIJob=0E1DE424;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-16/21:33:51.218][000043C8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E378598;Client=052050ED;pIJob=0E19AD80;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-16/21:33:51.221][000043C8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=052050ED ClusterID=300;初始过程断开
+[2022-10-16/21:34:08.061][0000308C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E378028;Client=05204EA4;pIJob=0E19B242;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-16/22:37:33.774][0000308C][ERR ][  1][SessionManager: 522]:JobError TDXSession=0E378028;Client=05204EA4;pIJob=0E1A61DA;ObjClsName=CTAJob_OpenEx,ErrType=1,ErrCode=10065,ErrInfo=通讯错误或者客户机错误(1:10065)。,FuncName=
+[2022-10-16/22:37:40.482][000043C8][ERR ][  7][SessionManager: 522]:JobError TDXSession=0E378598;Client=052050ED;pIJob=0E1A598C;ObjClsName=CTAJob_OpenEx,ErrType=7,ErrCode=10009,ErrInfo=网络故障,查找最快主站失败(LZ),FuncName=
+[2022-10-16/22:37:40.725][000043C8][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E378598;Client=052050ED;pIJob=0E19B704;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-16/22:37:40.725][000043C8][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=052050ED ClusterID=300;初始过程断开
+[2022-10-16/22:37:51.895][0000308C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E378028;Client=05204EA4;pIJob=0E19BBC6;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-19/23:45:21.983][00005790][ERR ][  2][SessionManager: 522]:JobError TDXSession=08155970;Client=0528966D;pIJob=07F69CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-19/23:45:21.984][00005790][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0528966D ClusterID=300;初始过程断开
+[2022-10-19/23:45:39.005][00001970][ERR ][  2][SessionManager: 522]:JobError TDXSession=08155250;Client=05289424;pIJob=07F6A1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-20/00:14:30.928][00001970][ERR ][  2][SessionManager: 522]:JobError TDXSession=08155250;Client=05289424;pIJob=07F6A66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-20/22:23:51.565][00004624][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E387E18;Client=05197E8D;pIJob=0E1B0A00;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-20/22:23:51.568][00004624][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=05197E8D ClusterID=300;初始过程断开
+[2022-10-20/22:24:07.647][0000598C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3876F8;Client=05197C44;pIJob=0E1B0EC2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-20/22:42:59.608][00001CEC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3B98A0;Client=0526C8F4;pIJob=0E1E1E10;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-20/23:18:44.007][000038D4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3B9E10;Client=0526CB3D;pIJob=0E1E22D2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-20/23:18:44.007][000038D4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0526CB3D ClusterID=300;初始过程断开
+[2022-10-20/23:19:03.007][00001CEC][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3B98A0;Client=0526C8F4;pIJob=0E1E2794;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-23/15:30:08.090][000050B0][ERR ][  2][SessionManager: 522]:JobError TDXSession=08121D28;Client=0528966D;pIJob=07F39CE8;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-23/15:30:08.092][000050B0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0528966D ClusterID=300;初始过程断开
+[2022-10-23/15:30:35.046][00004E10][ERR ][  2][SessionManager: 522]:JobError TDXSession=08121608;Client=05289424;pIJob=07F3A1AA;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-23/16:15:15.036][000050B0][ERR ][  2][SessionManager: 522]:JobError TDXSession=08121D28;Client=0528966D;pIJob=07F3A66C;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-23/16:15:15.036][000050B0][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0528966D ClusterID=300;初始过程断开
+[2022-10-23/16:15:31.544][00004E10][ERR ][  2][SessionManager: 522]:JobError TDXSession=08121608;Client=05289424;pIJob=07F3AB2E;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/00:46:54.668][000008A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E5EFC00;Client=0E5A80E5;pIJob=0E431BD0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/00:46:54.670][000008A4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E5A80E5 ClusterID=300;初始过程断开
+[2022-10-30/00:47:26.463][00002A10][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E5EF690;Client=0E5A7E9C;pIJob=0E432092;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/01:27:32.155][000008A4][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E5EFC00;Client=0E5A80E5;pIJob=0E432554;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/01:27:32.155][000008A4][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E5A80E5 ClusterID=300;初始过程断开
+[2022-10-30/01:27:48.759][00002A10][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E5EF690;Client=0E5A7E9C;pIJob=0E432A16;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/12:02:23.012][00001208][ERR ][  2][SessionManager: 522]:JobError TDXSession=082F2580;Client=0531B96D;pIJob=081050C0;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/12:02:23.012][00001208][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0531B96D ClusterID=300;初始过程断开
+[2022-10-30/12:02:47.656][000029A8][ERR ][  2][SessionManager: 522]:JobError TDXSession=082F3798;Client=0531B724;pIJob=08105582;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/12:39:10.826][00001208][ERR ][  2][SessionManager: 522]:JobError TDXSession=082F2580;Client=0531B96D;pIJob=08105A44;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-10-30/12:39:10.826][00001208][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0531B96D ClusterID=300;初始过程断开
+[2022-10-30/12:39:28.719][000029A8][ERR ][  2][SessionManager: 522]:JobError TDXSession=082F3798;Client=0531B724;pIJob=08105F06;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/00:04:16.717][0000489C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3FD9E8;Client=0E0DB685;pIJob=0E226D78;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/00:04:16.717][0000489C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E0DB685 ClusterID=300;初始过程断开
+[2022-11-01/00:04:43.606][0000500C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3FD2C8;Client=0E0DB43C;pIJob=0E22723A;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/00:51:15.576][0000489C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3FD9E8;Client=0E0DB685;pIJob=0E2276FC;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/00:51:15.578][0000489C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0E0DB685 ClusterID=300;初始过程断开
+[2022-11-01/00:51:33.331][0000500C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0E3FD2C8;Client=0E0DB43C;pIJob=0E227BBE;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/23:03:33.592][00003670][ERR ][  2][SessionManager: 522]:JobError TDXSession=0EF177D8;Client=0520CD5D;pIJob=0ED41E10;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/23:03:33.593][00003670][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0520CD5D ClusterID=300;初始过程断开
+[2022-11-01/23:04:01.975][000051C0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0EF0E930;Client=0520CB14;pIJob=0ED422D2;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/23:35:38.690][00003670][ERR ][  2][SessionManager: 522]:JobError TDXSession=0EF177D8;Client=0520CD5D;pIJob=0ED42794;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-01/23:35:38.693][00003670][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0520CD5D ClusterID=300;初始过程断开
+[2022-11-01/23:35:54.374][000051C0][ERR ][  2][SessionManager: 522]:JobError TDXSession=0EF0E930;Client=0520CB14;pIJob=0ED42C56;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-02/06:45:23.643][00002D2C][ERR ][  2][SessionManager: 522]:JobError TDXSession=0EF03EF8;Client=0ED0CC25;pIJob=0ED3C690;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=
+[2022-11-02/06:45:23.644][00002D2C][ERR ][  0][SessionManager:1449]:[Connect]连接服务器失败 E_DisCon Client=0ED0CC25 ClusterID=300;初始过程断开
+[2022-11-02/06:45:41.081][00002C28][ERR ][  2][SessionManager: 522]:JobError TDXSession=0EF03988;Client=0ED0C9DC;pIJob=0ED3CB52;ObjClsName=CTAJob_Closed,ErrType=2,ErrCode=6,ErrInfo=通讯错误或者客户机错误(2:6)。,FuncName=

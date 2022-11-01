@@ -16,7 +16,7 @@ app.all("*", function (req, res, next) {
   //跨域允许的请求方式
   res.header("Access-Control-Allow-Methods", "DELETE,PUT,POST,GET,OPTIONS");
   if (req.method == 'OPTIONS')
-  res.send(200); //让options尝试请求快速结束
+  res.sendStatus(200); //让options尝试请求快速结束
   else
   next();
 });
@@ -34,8 +34,10 @@ var getCacheFSPRoute = require("./routes/getCacheFSP"); // 读取缓存分时回
 var setCache120DayRoute = require("./routes/setCache120Day"); // 缓存半年数据
 var clsNewsRoute = require("./routes/clsNews"); // 缓存半年数据
 var ceshimysqlRoute = require("./routes/mysql/index"); // 测试mysql查询
+var ceshiDataRoute = require("./routes/mysql/ceshiData"); // 测试业务数据
 
 
+var test1 = require("./routes/test1"); // 
 var toDoRouteP = require("./routes/latestP"); // 最新个股价
 var toDoRoutePCache = require("./routes/latestPCache"); // 最新个股价 缓存
 var toDoRoutePAll = require("./routes/latestPAll"); // 模糊查询所有最新个股价
@@ -75,9 +77,10 @@ app.get('/getclsNews', clsNewsRoute) // 获取财联社数据
 
 app.get('/ceshimysql', ceshimysqlRoute) // 测试数据库
 
-
+app.get('/ceshiData', ceshiDataRoute) // 测试业务数据
 
 /* 1 最新Price接口 */
+app.get('/test1', test1)
 app.get('/latestP', toDoRouteP)
 app.get('/latestPCache', toDoRoutePCache)
 app.get('/latestPAll', toDoRoutePAll) // 模糊查询 所有股数据
