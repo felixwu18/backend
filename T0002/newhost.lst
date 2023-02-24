@@ -2,15 +2,15 @@
 HostNum=38
 
 HostName01=深圳双线主站1
-IPAddress01=120.79.60.82
+IPAddress01=110.41.147.114
 Port01=7709
 
 HostName02=深圳双线主站2
-IPAddress02=8.129.13.54
+IPAddress02=110.41.2.72
 Port02=7709
 
 HostName03=深圳双线主站3
-IPAddress03=120.24.149.49
+IPAddress03=110.41.4.4
 Port03=7709
 
 HostName04=深圳双线主站4
@@ -22,11 +22,11 @@ IPAddress05=8.129.174.169
 Port05=7709
 
 HostName06=深圳双线主站6
-IPAddress06=47.113.123.248
+IPAddress06=110.41.154.219
 Port06=7709
 
 HostName07=上海双线主站1
-IPAddress07=47.103.48.45
+IPAddress07=124.70.176.52
 Port07=7709
 
 HostName08=上海双线主站2
@@ -34,11 +34,11 @@ IPAddress08=47.100.236.28
 Port08=7709
 
 HostName09=上海双线主站3
-IPAddress09=101.133.214.242
+IPAddress09=123.60.186.45
 Port09=7709
 
 HostName10=上海双线主站4
-IPAddress10=47.116.21.80
+IPAddress10=123.60.164.122
 Port10=7709
 
 HostName11=上海双线主站5
@@ -46,7 +46,7 @@ IPAddress11=47.116.105.28
 Port11=7709
 
 HostName12=上海双线主站6
-IPAddress12=47.116.10.29
+IPAddress12=124.70.199.56
 Port12=7709
 
 HostName13=北京双线主站1
