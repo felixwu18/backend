@@ -35,8 +35,8 @@ SwitchADUrl_ITREND=
 SwitchADUrl_YJ=
 SwitchADUrl_ZY=
 FreeAutoupUrl=http://data.tdx.com.cn/autoup/tdxw3_level2_tcpip758.zip
-HQAreaADStr_Free=通达信，仅需1元查看千档行情
-HQAreaADUrl_Free=https://vip.tdx.com.cn/site/app/pc-mall/main.html#/flashpro?advId=2000&advDeId=762
+HQAreaADStr_Free=通达信，仅需20元查看千档行情
+HQAreaADUrl_Free=https://vip.tdx.com.cn/site/app/pc-mall/main.html#/shaky?advId=2000&advName=pjgg&advDeId=491
 HQAreaADFlag_Free=3
 [Mail]
 MailContent1=通达信个人版商城 http://vip.tdx.com.cn/site/app/level2/
